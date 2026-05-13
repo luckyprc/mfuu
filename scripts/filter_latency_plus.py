@@ -1,4 +1,14 @@
-import os, re, json, base64, time, asyncio, socket, ipaddress
+#!/usr/bin/env python3
+"""订阅内容获取、TCP延迟测试、去重、输出"""
+
+import os
+import re
+import json
+import base64
+import time
+import asyncio
+import socket
+import ipaddress
 from urllib.parse import urlsplit, parse_qsl, urlencode, urlunsplit
 import requests
 
@@ -15,33 +25,44 @@ OUT_JSON = "output/nodes.json"
 
 SCHEMES = ("vmess://", "vless://", "trojan://", "ss://")
 
+
 def try_b64_decode(s: str) -> str | None:
+    """尝试把整段文本当 base64 解码；成功且包含代理链接则返回解码后内容"""
     t = s.strip()
     if not t:
         return None
+    # 如果已经包含明文代理链接，说明不是 base64
     if any(x in t for x in SCHEMES):
         return None
+    # 只保留 base64 合法字符（含真实换行符 \r \n）
     if not re.fullmatch(r"[A-Za-z0-9+/=\r\n]+", t):
         return None
     try:
-        raw = base64.b64decode(t + "===", validate=False).decode("utf-8", "ignore")
+        raw = base64.b64decode(t, validate=False).decode("utf-8", "ignore")
         if any(line.startswith(SCHEMES) for line in raw.splitlines()):
             return raw
     except Exception:
         return None
     return None
 
+
 def parse_vmess(link: str):
     try:
         payload = link[len("vmess://"):]
-        data = json.loads(base64.b64decode(payload + "===").decode("utf-8", "ignore"))
+        # 去掉可能的多余填充
+        pad = 4 - len(payload) % 4
+        if pad != 4:
+            payload += "=" * pad
+        data = json.loads(base64.b64decode(payload, validate=False).decode("utf-8", "ignore"))
         host = (data.get("add") or "").strip()
-        port = int(str(data.get("port", "")).strip())
+        port_raw = str(data.get("port", "") or "").strip()
+        port = int(port_raw) if port_raw else 0
         uuid = (data.get("id") or "").strip()
         tls_like = str(data.get("tls") or "").lower() in ("tls", "reality")
         return host, port, uuid, tls_like, data
     except Exception:
         return None
+
 
 def extract_host_port_identity_tls(link: str):
     link = link.strip()
@@ -64,7 +85,7 @@ def extract_host_port_identity_tls(link: str):
             security = (qs.get("security") or "").lower()
             tls_like = security in ("tls", "reality") or (qs.get("tls") in ("1", "true", "True"))
             proto = "vless" if link.startswith("vless://") else "trojan"
-            identity = (u.username or "").strip()  # vless=uuid, trojan=password
+            identity = (u.username or "").strip()
             return host, port, (proto, identity), tls_like
         except Exception:
             return None
@@ -74,20 +95,21 @@ def extract_host_port_identity_tls(link: str):
             u = urlsplit(link)
             host = (u.hostname or "").strip("[]")
             port = int(u.port or 0)
-            # ss 没有统一“身份”，用 host:port 做 identity（也便于去重）
             return host, port, ("ss", f"{host}:{port}"), False
         except Exception:
             return None
 
     return None
 
+
 def is_junk_host_port(host: str, port: int) -> bool:
     if not host or port <= 0 or port > 65535:
         return True
     hl = host.lower()
-    if hl in ("localhost", "0.0.0.0"):
+    if hl in ("localhost", "0.0.0.0", "127.0.0.1"):
         return True
     return False
+
 
 async def resolve_ips(host: str):
     try:
@@ -99,6 +121,7 @@ async def resolve_ips(host: str):
     except Exception:
         return []
 
+
 def has_private_or_loopback_ip(ips):
     for ip in ips:
         try:
@@ -108,6 +131,7 @@ def has_private_or_loopback_ip(ips):
         except Exception:
             continue
     return False
+
 
 async def tcp_latency_ms(host: str, port: int, timeout: float) -> int | None:
     start = time.perf_counter()
@@ -122,12 +146,8 @@ async def tcp_latency_ms(host: str, port: int, timeout: float) -> int | None:
     except Exception:
         return None
 
+
 def make_insecure_link(link: str) -> str:
-    """
-    尽力把“跳过证书校验”提示写进分享链接：
-    - vless/trojan: 追加 allowInsecure=1（部分客户端识别）
-    - vmess/ss: 不改动内容（避免破坏兼容），在 nodes.json / clash.yaml / v2ray-core.json 中强制 scv
-    """
     if link.startswith(("vless://", "trojan://")):
         u = urlsplit(link)
         qs = dict(parse_qsl(u.query, keep_blank_values=True))
@@ -136,14 +156,21 @@ def make_insecure_link(link: str) -> str:
         return urlunsplit((u.scheme, u.netloc, u.path, new_query, u.fragment))
     return link
 
+
 async def main():
     if not UPSTREAM_SUB:
         raise SystemExit("UPSTREAM_SUB env not set")
 
+    print(f"Fetching upstream: {UPSTREAM_SUB}")
     text = requests.get(UPSTREAM_SUB, timeout=30).text
+    print(f"Upstream length: {len(text)}")
+
     decoded = try_b64_decode(text)
     if decoded is not None:
+        print("Decoded base64 upstream")
         text = decoded
+    else:
+        print("Upstream treated as plain text")
 
     links = []
     for line in text.splitlines():
@@ -151,6 +178,17 @@ async def main():
         if line.startswith(SCHEMES):
             links.append(line)
     links = list(dict.fromkeys(links))
+    print(f"Total links found: {len(links)}")
+
+    if not links:
+        print("WARNING: No proxy links found. Check upstream format.")
+        # 仍然创建空文件，避免后续步骤报错
+        os.makedirs("output", exist_ok=True)
+        for path in (OUT_RAW, OUT_B64, OUT_RAW_INSECURE, OUT_B64_INSECURE, OUT_JSON):
+            with open(path, "w", encoding="utf-8") as f:
+                f.write("" if "json" not in path else "{}")
+        print("Wrote empty placeholder files.")
+        return
 
     sem = asyncio.Semaphore(CONCURRENCY)
     results = []
@@ -193,7 +231,7 @@ async def main():
         if r:
             results.append(r)
 
-    # ✅ 关键：对同一 host:port 只保留最低延迟的那个
+    # 同一 host:port 只保留最低延迟
     results.sort(key=lambda x: x["latency_ms"])
     seen_hostport = set()
     kept = []
@@ -236,6 +274,7 @@ async def main():
         )
 
     print(f"Tested={len(links)} Passed={len(kept)} (<= {MAX_LATENCY_MS}ms, host:port min kept)")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
