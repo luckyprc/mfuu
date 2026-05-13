@@ -1,0 +1,68 @@
+name: "Filter & Build (mfuu-based, real-connect, scv)"
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Setup Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: "Install deps"
+        run: |
+          pip install requests pyyaml
+
+      - name: "Install mihomo (Clash.Meta)"
+        run: |
+          curl -sL "https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64-compatible-v3-vless.gz" | gunzip -c > /tmp/mihomo
+          chmod +x /tmp/mihomo
+          /tmp/mihomo -v
+
+      - name: "Fetch test and filter (real-connect via mihomo)"
+        env:
+          UPSTREAM_SUB: "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray"
+          MAX_LATENCY_MS: "800"
+          PROBE_URL: "http://connectivitycheck.platform.hicloud.com/generate_204"
+          PROBE_TIMEOUT_MS: "5000"
+          CONCURRENCY: "50"
+        run: |
+          mkdir -p output
+          python scripts/filter_latency_plus.py
+
+      - name: "Generate Clash YAML"
+        run: |
+          python scripts/gen_clash_yaml.py
+
+      - name: "Generate v2ray-core config"
+        run: |
+          python scripts/gen_v2ray_core_insecure.py
+
+      - name: "Export report YAML"
+        run: |
+          python scripts/json_to_yaml.py || echo "json_to_yaml.py not found, skipped"
+
+      - name: "Commit and push results"
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add output/*
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update filtered subs (real-connect, <=800ms, scv)"
+            git push origin main
+          fi
