@@ -1,4 +1,8 @@
-name: Filter & Build (mfuu-based, <=800ms, scv)name: Filter & Build (mfuu-based, <=800    - cron: "0 */6 * * *"   # 每 6 小时
+name: Filter & Build (mfuu-based, <=800ms, scv)
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # 每 6 小时
   workflow_dispatch:
 
 permissions:
@@ -40,7 +44,7 @@ jobs:
 
       - name: Export report YAML (optional)
         run: |
-          python scripts/json_to_yaml.py
+          python scripts/json_to_yaml.py || echo "json_to_yaml.py not found, skipped"
 
       - name: Commit results
         run: |
@@ -49,6 +53,3 @@ jobs:
           git add output/*
           git commit -m "Update filtered subs (<=800ms, hostport-min, scv)" || echo "No changes"
           git push
-
-on:
-  schedule:
