@@ -1,4 +1,4 @@
-name: "Filter & Build (mfuu-based, real-connect, scv)"
+name: "Build raw sub (scv=true)"
 
 on:
   schedule:
@@ -12,65 +12,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "Checkout"
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "Setup Python"
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: "Install deps"
-        run: |
-          pip install requests pyyaml
+      - run: pip install requests
 
-      - name: "Install mihomo (Clash.Meta)"
-        run: |
-          # 获取最新 release 版本号
-          VERSION=$(curl -sL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
-          echo "Latest mihomo version: $VERSION"
-          
-          # 下载对应版本（带 -L 跟随重定向）
-          curl -sL -o /tmp/mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${VERSION}/mihomo-linux-amd64-compatible-${VERSION}.gz"
-          
-          # 解压
-          gunzip -c /tmp/mihomo.gz > /tmp/mihomo
-          chmod +x /tmp/mihomo
-          /tmp/mihomo -v
-
-      - name: "Fetch test and filter (real-connect via mihomo)"
-        env:
+      - env:
           UPSTREAM_SUB: "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray"
-          MAX_LATENCY_MS: "800"
-          PROBE_URL: "http://connectivitycheck.platform.hicloud.com/generate_204"
-          PROBE_TIMEOUT_MS: "5000"
-          CONCURRENCY: "50"
         run: |
           mkdir -p output
-          python scripts/filter_latency_plus.py
+          python scripts/filter.py
 
-      - name: "Generate Clash YAML"
-        run: |
-          python scripts/gen_clash_yaml.py
-
-      - name: "Generate v2ray-core config"
-        run: |
-          python scripts/gen_v2ray_core_insecure.py
-
-      - name: "Export report YAML"
-        run: |
-          python scripts/json_to_yaml.py || echo "json_to_yaml.py not found, skipped"
-
-      - name: "Commit and push results"
-        run: |
+      - run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add output/*
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update filtered subs (real-connect, <=800ms, scv)"
+          if ! git diff --cached --quiet; then
+            git commit -m "Update raw subs (scv=true)"
             git push origin main
           fi
