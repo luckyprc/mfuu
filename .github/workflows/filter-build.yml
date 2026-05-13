@@ -1,0 +1,54 @@
+name: Filter & Build (mfuu-based, <=800ms, scv)name: Filter & Build (mfuu-based, <=800    - cron: "0 */6 * * *"   # 每 6 小时
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install requests pyyaml
+
+      - name: Fetch + test + filter (concurrency=100, <=800ms)
+        env:
+          UPSTREAM_SUB: "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray"
+          MAX_LATENCY_MS: "800"
+          CONNECT_TIMEOUT_SEC: "3"
+          CONCURRENCY: "100"
+        run: |
+          mkdir -p output
+          python scripts/filter_latency_plus.py
+
+      - name: Generate Clash YAML (skip-cert-verify: true)
+        run: |
+          python scripts/gen_clash_yaml.py
+
+      - name: Generate v2ray-core config (allowInsecure: true)
+        run: |
+          python scripts/gen_v2ray_core_insecure.py
+
+      - name: Export report YAML (optional)
+        run: |
+          python scripts/json_to_yaml.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add output/*
+          git commit -m "Update filtered subs (<=800ms, hostport-min, scv)" || echo "No changes"
+          git push
+
+on:
+  schedule:
