@@ -4,136 +4,8 @@ allow-lan: true
 mode: rule
 log-level: warning
 proxies:
-- type: trojan
-  name: 🇺🇸 _US_美国-001
-  server: 216.24.57.250
-  port: 443
-  udp: true
-  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-  network: tcp
-  servername: afrcloud1.mmv.kr
-- type: trojan
-  name: 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-002
-  server: cf.090227.xyz
-  port: 443
-  udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
-- type: ss
-  name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-003
-  server: 15.204.247.49
-  port: 12000
-  cipher: aes-256-gcm
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  udp: true
-- type: trojan
-  name: 美國丨yoyapai.com\r-004
-  server: 172.66.44.230
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: ss
-  name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-005
-  server: 23.95.75.146
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  udp: true
-- type: trojan
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享)-006
-  server: cf.zhetengsha.eu.org
-  port: 443
-  udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
 - type: vmess
-  name: 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-007
-  server: hgtrojan.zabc.net
-  port: 2083
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /e6395c20
-    headers:
-      Host: hgtrojan.zabc.net
-  tls: true
-  skip-cert-verify: true
-  servername: hgtrojan.zabc.net
-- type: ss
-  name: 🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-008
-  server: 144.217.164.29
-  port: 12000
-  cipher: aes-256-gcm
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  udp: true
-- type: trojan
-  name: 🇨🇳 TW台湾(mibei77.com 米贝节点分享)-009
-  server: sub.danfeng.eu.org
-  port: 443
-  udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
-- type: ss
-  name: 🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-010
-  server: 45.154.204.7
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- type: ss
-  name: 🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-011
-  server: 23.95.76.59
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- type: ss
-  name: 🇺🇸 美国 V2CROSS.COM-012
-  server: 149.28.255.6
-  port: 816
-  cipher: chacha20-ietf-poly1305
-  password: GyZ5Xo0ht41vYmW3H4
-  udp: true
-- type: trojan
-  name: 🇯🇵 JP日本(mibei77.com 米贝节点分享)-013
-  server: cdns.doon.eu.org
-  port: 443
-  udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
-- type: vmess
-  name: 🇺🇸 VMESS-美国>德国-NF解锁印度地区非自制剧-ChatGPT-TikTok-YouTube-support.zoom.us:8080-014
-  server: support.zoom.us
-  port: 8080
-  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /@Malinda6104
-    headers:
-      Host: support.zoom.us
-- type: vmess
-  name: 🇬🇧 英國-015
-  server: 82.198.246.233
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: tcp
-- type: vmess
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)-016
+  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)-001
   server: 82.198.246.37
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -142,16 +14,7 @@ proxies:
   udp: true
   network: tcp
 - type: vmess
-  name: 英國-017
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: tcp
-- type: vmess
-  name: 🇺🇸 US美國節點-018
+  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)-002
   server: 82.198.246.97
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -160,7 +23,34 @@ proxies:
   udp: true
   network: tcp
 - type: vmess
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)-019
+  name: 🇬🇧 英国 CCZZUU.TOP 3-003
+  server: 82.198.246.233
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: tcp
+- type: vmess
+  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)-004
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: tcp
+- type: vmess
+  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)-005
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: tcp
+- type: vmess
+  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)-006
   server: 82.198.246.9
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -169,394 +59,7 @@ proxies:
   udp: true
   network: tcp
 - type: vmess
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)-020
-  server: 82.198.246.250
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: tcp
-- type: ss
-  name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-021
-  server: 71.19.148.143
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: p78naCf2EfOlRSLTX0wFVx
-  udp: true
-- type: ss
-  name: 🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-022
-  server: 79.127.233.170
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- type: ss
-  name: 🇩🇪 DE德国(mibei77.com 米贝节点分享)-023
-  server: hackney-latest-strike.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: XUMTygEM1jVYIvysXKqA5T
-  udp: true
-- type: trojan
-  name: 法國節點丨yoyapai.com\r-024
-  server: 138.124.81.204
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇫🇷FR法國丨yoyapai.com\r-025
-  server: 109.61.110.241
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: ss
-  name: 🇮🇪 爱尔兰 V2CROSS.COM-026
-  server: series-a1.samanehha.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-027
-  server: 144.31.122.162
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: vmess
-  name: 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-028
-  server: cg1c01.waimaojd.com
-  port: 443
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /api/v1/graphql
-    headers:
-      Host: cg1c01.waimaojd.com
-  tls: true
-  skip-cert-verify: true
-  servername: cg1c01.waimaojd.com
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-029
-  server: 31.15.18.58
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 荷蘭節點丨yoyapai.com\r-030
-  server: 31.15.17.129
-  port: 2053
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-031
-  server: 185.162.9.60
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-032
-  server: 91.221.191.120
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 西班牙節點🇪🇸ES丨yoyapai.com\r-033
-  server: 172.233.97.34
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-034
-  server: 185.31.200.184
-  port: 2053
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-035
-  server: 185.52.0.84
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-036
-  server: 91.221.190.80
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇧🇪BE比利時丨yoyapai.com\r-037
-  server: 95.164.62.196
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-038
-  server: 152.53.200.164
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 捷克節點丨yoyapai.com\r-039
-  server: 185.253.46.5
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-040
-  server: 38.180.233.61
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇩🇰DK丹麥丨yoyapai.com\r-041
-  server: 77.37.96.132
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-042
-  server: 95.169.192.234
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-043
-  server: 38.180.70.111
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 荷蘭節點丨yoyapai.com\r-044
-  server: 152.53.200.89
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: ss
-  name: 🇮🇪 爱尔兰 V2CROSS.COM-045
-  server: series-a2.samanehha.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- type: trojan
-  name: 瑞士節點丨yoyapai.com\r-046
-  server: 91.192.102.55
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-047
-  server: 38.180.96.40
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-048
-  server: 45.145.171.206
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 丹麥節點🇩🇰DK丨yoyapai.com\r-049
-  server: 77.37.96.247
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇨🇭CH臺灣丨yoyapai.com\r-050
-  server: 146.70.71.157
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: vmess
-  name: 🇦🇺 VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-051
-  server: sy4.620720.xyz
-  port: 443
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sy4.620720.xyz
-  tls: true
-  skip-cert-verify: true
-  servername: sy4.620720.xyz
-- type: trojan
-  name: 🇳🇱NL荷蘭丨yoyapai.com\r-052
-  server: 2.59.183.210
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 意大利節點🇮🇹IT丨yoyapai.com\r-053
-  server: 151.241.215.148
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 瑞典節點丨yoyapai.com\r-054
-  server: 64.112.127.151
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 奧地利節點丨yoyapai.com\r-055
-  server: 46.102.156.144
-  port: 2053
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 瑞士節點丨yoyapai.com\r-056
-  server: 140.238.208.240
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 奧地利節點丨yoyapai.com\r-057
-  server: 38.180.143.51
-  port: 2053
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 荷蘭節點丨yoyapai.com\r-058
-  server: 77.110.103.243
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: ss
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)-059
-  server: 82.38.31.149
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- type: trojan
-  name: 瑞士節點丨yoyapai.com\r-060
-  server: 38.180.84.86
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇸🇪SE瑞典節點丨yoyapai.com\r-061
-  server: 45.153.187.209
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 瑞典丨yoyapai.com\r-062
-  server: 16.16.45.85
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 意大利丨yoyapai.com\r-063
-  server: 38.180.194.222
-  port: 2053
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇪🇪EE愛沙尼亞丨yoyapai.com\r-064
-  server: 5.189.254.235
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇸🇪SE瑞典丨yoyapai.com\r-065
-  server: 176.125.240.63
-  port: 2053
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 瑞典節點丨yoyapai.com\r-066
-  server: 176.125.240.147
-  port: 2053
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: vmess
-  name: 🇺🇸 美国 CloudFlare节点-067
+  name: 🇺🇸 美国 CloudFlare节点-007
   server: cf.scpnb.top
   port: 443
   uuid: b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69
@@ -571,32 +74,44 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: cf.scpnb.top
-- type: trojan
-  name: 🇱🇻LV拉脫維亞節點丨yoyapai.com\r-068
-  server: 91.239.23.10
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 瑞典節點丨yoyapai.com\r-069
-  server: 83.147.254.243
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 拉脫維亞丨yoyapai.com\r-070
-  server: 146.19.84.236
-  port: 2053
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
 - type: vmess
-  name: 🇯🇵 VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443-071
+  name: 🇦🇺 VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-008
+  server: sy4.620720.xyz
+  port: 443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sy4.620720.xyz
+  tls: true
+  skip-cert-verify: true
+  servername: sy4.620720.xyz
+- type: vmess
+  name: 🇺🇸 VMESS-美国>德国-NF解锁印度地区非自制剧-ChatGPT-TikTok-YouTube-support.zoom.us:8080-009
+  server: support.zoom.us
+  port: 8080
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /@Malinda6104
+    headers:
+      Host: support.zoom.us
+- type: ss
+  name: 🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-010
+  server: 79.127.233.170
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+  udp: true
+- type: vmess
+  name: 🇯🇵 VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443-011
   server: t1.620720.xyz
   port: 8443
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
@@ -612,79 +127,103 @@ proxies:
   skip-cert-verify: true
   servername: t1.620720.xyz
 - type: trojan
-  name: 匈牙利節點丨yoyapai.com\r-072
-  server: 180.149.37.38
+  name: 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-012
+  server: cf.090227.xyz
+  port: 443
+  udp: true
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: ss
+  name: 🇺🇸 美国 CCZZUU.TOP 2-013
+  server: 149.28.255.6
+  port: 816
+  cipher: chacha20-ietf-poly1305
+  password: GyZ5Xo0ht41vYmW3H4
+  udp: true
+- type: trojan
+  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享)-014
+  server: cf.zhetengsha.eu.org
+  port: 443
+  udp: true
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: trojan
+  name: 🇨🇳 TW台湾(mibei77.com 米贝节点分享)-015
+  server: sub.danfeng.eu.org
+  port: 443
+  udp: true
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: trojan
+  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享)-016
+  server: saas.sin.fan
+  port: 443
+  udp: true
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: trojan
+  name: 美國丨yoyapai.com\r-017
+  server: 172.66.44.230
   port: 8443
   udp: true
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: tcp
   servername: Koma-YT.PAGeS.Dev
 - type: trojan
-  name: 立陶宛節點🇱🇹LT丨yoyapai.com\r-073
-  server: 46.29.234.91
+  name: 🇳🇱NL荷蘭丨yoyapai.com\r-018
+  server: 31.15.18.58
   port: 8443
   udp: true
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: tcp
   servername: Koma-YT.PAGeS.Dev
 - type: trojan
-  name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-074
-  server: 38.180.205.71
+  name: 瑞士節點丨yoyapai.com\r-019
+  server: 91.192.102.55
   port: 443
   udp: true
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: tcp
   servername: Koma-YT.PAGeS.Dev
 - type: trojan
-  name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-075
-  server: 38.180.35.88
+  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享)-020
+  server: cf.877774.xyz
   port: 443
   udp: true
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: trojan
+  name: 🇰🇷KR韓國丨yoyapai.com\r-021
+  server: 61.72.208.162
+  port: 32768
+  udp: true
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: tcp
   servername: Koma-YT.PAGeS.Dev
+- type: vmess
+  name: 🇭🇰 香港|@ripaojiedian-022
+  server: v10.hdacd.com
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  udp: true
+  network: tcp
 - type: trojan
-  name: 🇱🇹LT立陶宛丨yoyapai.com\r-076
-  server: 185.80.128.115
-  port: 8443
+  name: 🇰🇷KR韓國丨yoyapai.com\r-023
+  server: 183.107.78.213
+  port: 20880
   udp: true
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: tcp
   servername: Koma-YT.PAGeS.Dev
 - type: trojan
-  name: 🇸🇪SE瑞典節點丨yoyapai.com\r-077
-  server: 83.147.254.168
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 瑞典節點丨yoyapai.com\r-078
-  server: 185.104.151.181
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇸🇪SE瑞典節點丨yoyapai.com\r-079
-  server: 77.110.121.125
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 俄羅斯節點丨yoyapai.com\r-080
-  server: 95.213.226.60
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-081
+  name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-024
   server: 45.67.34.89
   port: 8443
   udp: true
@@ -692,47 +231,157 @@ proxies:
   network: tcp
   servername: Koma-YT.PAGeS.Dev
 - type: trojan
-  name: 俄羅斯節點丨yoyapai.com\r-082
-  server: 82.97.249.34
+  name: 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-025
+  server: mfa.gov.ua
+  port: 443
+  udp: true
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: trojan
+  name: 拉脫維亞丨yoyapai.com\r-026
+  server: 146.19.84.236
   port: 2053
   udp: true
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: tcp
   servername: Koma-YT.PAGeS.Dev
+- type: vmess
+  name: 8元老牌专线机场：cczzuu.top-027
+  server: efan.dnsefan04881.com
+  port: 7754
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: tcp
 - type: trojan
-  name: 俄羅斯節點丨yoyapai.com\r-083
-  server: 85.239.39.144
+  name: 🇳🇱NL荷蘭丨yoyapai.com\r-028
+  server: 91.221.191.120
   port: 8443
   udp: true
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: tcp
   servername: Koma-YT.PAGeS.Dev
 - type: trojan
-  name: 🇷🇺RU俄羅斯丨yoyapai.com\r-084
+  name: 🇯🇵 JP日本(mibei77.com 米贝节点分享)-029
+  server: cdns.doon.eu.org
+  port: 443
+  udp: true
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: trojan
+  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享)-030
+  server: cf.008500.xyz
+  port: 443
+  udp: true
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: trojan
+  name: 🇳🇱NL荷蘭丨yoyapai.com\r-031
+  server: 152.53.200.164
+  port: 8443
+  udp: true
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: tcp
+  servername: Koma-YT.PAGeS.Dev
+- type: trojan
+  name: 🇰🇷 KR韩国(mibei77.com 米贝节点分享)-032
+  server: cf.130519.xyz
+  port: 443
+  udp: true
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: vmess
+  name: 亚太地区 CCZZUU.TOP-033
+  server: planb.mojcn.com
+  port: 16626
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+- type: vmess
+  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)-034
+  server: v8.hdacd.com
+  port: 30808
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  udp: true
+  network: tcp
+- type: trojan
+  name: 🇷🇺RU俄羅斯丨yoyapai.com\r-035
   server: 95.163.242.189
   port: 8443
   udp: true
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: tcp
   servername: Koma-YT.PAGeS.Dev
-- type: vmess
-  name: 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-085
-  server: cg1c07.waimaojd.com
+- type: trojan
+  name: 🇯🇵 JP日本(mibei77.com 米贝节点分享)-036
+  server: store.ubi.com
   port: 443
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  alterId: 0
-  cipher: auto
   udp: true
-  network: ws
-  ws-opts:
-    path: /api/v1/graphql
-    headers:
-      Host: cg1c07.waimaojd.com
-  tls: true
-  skip-cert-verify: true
-  servername: cg1c07.waimaojd.com
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: tcp
+  servername: cloudflare-proxy-1jk.pages.dev
+- type: ss
+  name: 🇺🇸 美国 CCZZUU.TOP-037
+  server: chengbai02.ascwt179.com
+  port: 13223
+  cipher: aes-128-gcm
+  password: JVrsLLN1tkN8oXZO
+  udp: true
+- type: trojan
+  name: 荷蘭節點丨yoyapai.com\r-038
+  server: 77.110.103.243
+  port: 8443
+  udp: true
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: tcp
+  servername: Koma-YT.PAGeS.Dev
+- type: trojan
+  name: 荷蘭節點丨yoyapai.com\r-039
+  server: 152.53.200.89
+  port: 8443
+  udp: true
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: tcp
+  servername: Koma-YT.PAGeS.Dev
+- type: trojan
+  name: 意大利丨yoyapai.com\r-040
+  server: 38.180.194.222
+  port: 2053
+  udp: true
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: tcp
+  servername: Koma-YT.PAGeS.Dev
+- type: trojan
+  name: 🇸🇪SE瑞典節點丨yoyapai.com\r-041
+  server: 45.153.187.209
+  port: 8443
+  udp: true
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: tcp
+  servername: Koma-YT.PAGeS.Dev
+- type: trojan
+  name: 瑞典丨yoyapai.com\r-042
+  server: 16.16.45.85
+  port: 8443
+  udp: true
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: tcp
+  servername: Koma-YT.PAGeS.Dev
 - type: vmess
-  name: 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-086
+  name: 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-043
   server: cg1c14.waimaojd.com
   port: 443
   uuid: be8e3136-b874-4085-bd23-ec3699300490
@@ -748,7 +397,60 @@ proxies:
   skip-cert-verify: true
   servername: cg1c14.waimaojd.com
 - type: vmess
-  name: 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-087
+  name: 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-044
+  server: hgtrojan.zabc.net
+  port: 2083
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /e6395c20
+    headers:
+      Host: hgtrojan.zabc.net
+  tls: true
+  skip-cert-verify: true
+  servername: hgtrojan.zabc.net
+- type: ss
+  name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-045
+  server: 15.204.247.49
+  port: 12000
+  cipher: aes-256-gcm
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  udp: true
+- type: ss
+  name: 🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-046
+  server: 144.217.164.29
+  port: 12000
+  cipher: aes-256-gcm
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  udp: true
+- type: vmess
+  name: 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-047
+  server: cg1c01.waimaojd.com
+  port: 443
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /api/v1/graphql
+    headers:
+      Host: cg1c01.waimaojd.com
+  tls: true
+  skip-cert-verify: true
+  servername: cg1c01.waimaojd.com
+- type: ss
+  name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-048
+  server: 23.95.75.146
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  udp: true
+- type: vmess
+  name: 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-049
   server: cg1c04.waimaojd.com
   port: 443
   uuid: be8e3136-b874-4085-bd23-ec3699300490
@@ -764,481 +466,158 @@ proxies:
   skip-cert-verify: true
   servername: cg1c04.waimaojd.com
 - type: ss
-  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)-088
-  server: switcher-nick-croquet.freesocks.work
-  port: 443
+  name: 🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-050
+  server: 23.95.76.59
+  port: 990
   cipher: chacha20-ietf-poly1305
-  password: wwzVn2ZnHfqYa6l8EWh3eY
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- type: trojan
-  name: 🇯🇵 日本|@ripaojiedian-089
-  server: 116.80.61.236
-  port: 443
-  udp: true
-  password: BxceQaOe
-  network: tcp
-  servername: t.me%2Fripaojiedian
 - type: ss
-  name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-090
-  server: pupas-shirting-unsung.freesocks.work
-  port: 443
+  name: 🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-051
+  server: 45.154.204.7
+  port: 990
   cipher: chacha20-ietf-poly1305
-  password: p78naCf2EfOlRSLTX0wFVx
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-091
-  server: 175.197.237.36
-  port: 10912
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-092
-  server: 220.118.248.123
-  port: 18001
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-093
-  server: 183.102.55.197
-  port: 10003
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-094
-  server: 59.12.232.18
-  port: 12345
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-095
-  server: 183.107.78.213
-  port: 20880
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 俄羅斯節點丨yoyapai.com\r-096
-  server: 79.141.73.189
-  port: 8443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-097
-  server: 59.0.95.106
-  port: 32773
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
 - type: vmess
-  name: 🇭🇰 香港|@ripaojiedian-098
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  udp: true
-  network: tcp
-- type: ss
-  name: 🇺🇸 美国 V2CROSS.COM-099
-  server: chengbai02.ascwt179.com
-  port: 13223
-  cipher: aes-128-gcm
-  password: JVrsLLN1tkN8oXZO
-  udp: true
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-100
-  server: 118.39.136.248
-  port: 20002
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇸🇬SG新加坡丨yoyapai.com\r-101
-  server: 66.42.61.215
+  name: 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-052
+  server: cg1c07.waimaojd.com
   port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-102
-  server: 14.50.59.154
-  port: 10243
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-103
-  server: 59.16.228.103
-  port: 18469
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 泰國節點丨yoyapai.com\r-104
-  server: 43.249.33.117
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 泰國節點丨yoyapai.com\r-105
-  server: 45.91.134.91
-  port: 2053
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 泰國節點丨yoyapai.com\r-106
-  server: 45.150.128.181
-  port: 443
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: trojan
-  name: 🇰🇷KR韓國丨yoyapai.com\r-107
-  server: 123.99.111.135
-  port: 19461
-  udp: true
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: tcp
-  servername: Koma-YT.PAGeS.Dev
-- type: vmess
-  name: 亚太地区 CCZZUU.TOP-108
-  server: planb.mojcn.com
-  port: 16626
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
   alterId: 0
   cipher: auto
   udp: true
   network: ws
   ws-opts:
-    path: /
+    path: /api/v1/graphql
     headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+      Host: cg1c07.waimaojd.com
+  tls: true
+  skip-cert-verify: true
+  servername: cg1c07.waimaojd.com
 - type: trojan
-  name: 🇰🇷 KR韩国(mibei77.com 米贝节点分享)-109
-  server: cf.130519.xyz
-  port: 443
+  name: 奧地利節點丨yoyapai.com\r-053
+  server: 38.180.143.51
+  port: 2053
   udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  password: 8r%3C%5B9%27l6hAO%238ZQi
   network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
-- type: trojan
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享)-110
-  server: cf.008500.xyz
-  port: 443
-  udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
-- type: vmess
-  name: 8元老牌专线机场：cczzuu.top-111
-  server: efan.dnsefan04881.com
-  port: 7754
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: tcp
-- type: trojan
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享)-112
-  server: saas.sin.fan
-  port: 443
-  udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
-- type: trojan
-  name: 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-113
-  server: mfa.gov.ua
-  port: 443
-  udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
-- type: ss
-  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)-114
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  udp: true
-- type: trojan
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享)-115
-  server: cf.877774.xyz
-  port: 443
-  udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
-- type: trojan
-  name: 🇯🇵 JP日本(mibei77.com 米贝节点分享)-116
-  server: store.ubi.com
-  port: 443
-  udp: true
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: tcp
-  servername: cloudflare-proxy-1jk.pages.dev
+  servername: Koma-YT.PAGeS.Dev
 proxy-groups:
 - name: AUTO
   type: url-test
   proxies:
-  - 🇺🇸 _US_美国-001
-  - 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-002
-  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-003
-  - 美國丨yoyapai.com\r-004
-  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-005
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-006
-  - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-007
-  - 🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-008
-  - 🇨🇳 TW台湾(mibei77.com 米贝节点分享)-009
-  - 🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-010
-  - 🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-011
-  - 🇺🇸 美国 V2CROSS.COM-012
-  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)-013
-  - 🇺🇸 VMESS-美国>德国-NF解锁印度地区非自制剧-ChatGPT-TikTok-YouTube-support.zoom.us:8080-014
-  - 🇬🇧 英國-015
-  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-016
-  - 英國-017
-  - 🇺🇸 US美國節點-018
-  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-019
-  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-020
-  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-021
-  - 🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-022
-  - 🇩🇪 DE德国(mibei77.com 米贝节点分享)-023
-  - 法國節點丨yoyapai.com\r-024
-  - 🇫🇷FR法國丨yoyapai.com\r-025
-  - 🇮🇪 爱尔兰 V2CROSS.COM-026
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-027
-  - 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-028
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-029
-  - 荷蘭節點丨yoyapai.com\r-030
+  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-001
+  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-002
+  - 🇬🇧 英国 CCZZUU.TOP 3-003
+  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-004
+  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-005
+  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-006
+  - 🇺🇸 美国 CloudFlare节点-007
+  - 🇦🇺 VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-008
+  - 🇺🇸 VMESS-美国>德国-NF解锁印度地区非自制剧-ChatGPT-TikTok-YouTube-support.zoom.us:8080-009
+  - 🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-010
+  - 🇯🇵 VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443-011
+  - 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-012
+  - 🇺🇸 美国 CCZZUU.TOP 2-013
+  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-014
+  - 🇨🇳 TW台湾(mibei77.com 米贝节点分享)-015
+  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-016
+  - 美國丨yoyapai.com\r-017
+  - 🇳🇱NL荷蘭丨yoyapai.com\r-018
+  - 瑞士節點丨yoyapai.com\r-019
+  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-020
+  - 🇰🇷KR韓國丨yoyapai.com\r-021
+  - 🇭🇰 香港|@ripaojiedian-022
+  - 🇰🇷KR韓國丨yoyapai.com\r-023
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-024
+  - 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-025
+  - 拉脫維亞丨yoyapai.com\r-026
+  - 8元老牌专线机场：cczzuu.top-027
+  - 🇳🇱NL荷蘭丨yoyapai.com\r-028
+  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)-029
+  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-030
   - 🇳🇱NL荷蘭丨yoyapai.com\r-031
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-032
-  - 西班牙節點🇪🇸ES丨yoyapai.com\r-033
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-034
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-035
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-036
-  - 🇧🇪BE比利時丨yoyapai.com\r-037
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-038
-  - 捷克節點丨yoyapai.com\r-039
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-040
-  - 🇩🇰DK丹麥丨yoyapai.com\r-041
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-042
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-043
-  - 荷蘭節點丨yoyapai.com\r-044
-  - 🇮🇪 爱尔兰 V2CROSS.COM-045
-  - 瑞士節點丨yoyapai.com\r-046
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-047
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-048
-  - 丹麥節點🇩🇰DK丨yoyapai.com\r-049
-  - 🇨🇭CH臺灣丨yoyapai.com\r-050
-  - 🇦🇺 VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-051
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-052
-  - 意大利節點🇮🇹IT丨yoyapai.com\r-053
-  - 瑞典節點丨yoyapai.com\r-054
-  - 奧地利節點丨yoyapai.com\r-055
-  - 瑞士節點丨yoyapai.com\r-056
-  - 奧地利節點丨yoyapai.com\r-057
-  - 荷蘭節點丨yoyapai.com\r-058
-  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-059
-  - 瑞士節點丨yoyapai.com\r-060
-  - 🇸🇪SE瑞典節點丨yoyapai.com\r-061
-  - 瑞典丨yoyapai.com\r-062
-  - 意大利丨yoyapai.com\r-063
-  - 🇪🇪EE愛沙尼亞丨yoyapai.com\r-064
-  - 🇸🇪SE瑞典丨yoyapai.com\r-065
-  - 瑞典節點丨yoyapai.com\r-066
-  - 🇺🇸 美国 CloudFlare节点-067
-  - 🇱🇻LV拉脫維亞節點丨yoyapai.com\r-068
-  - 瑞典節點丨yoyapai.com\r-069
-  - 拉脫維亞丨yoyapai.com\r-070
-  - 🇯🇵 VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443-071
-  - 匈牙利節點丨yoyapai.com\r-072
-  - 立陶宛節點🇱🇹LT丨yoyapai.com\r-073
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-074
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-075
-  - 🇱🇹LT立陶宛丨yoyapai.com\r-076
-  - 🇸🇪SE瑞典節點丨yoyapai.com\r-077
-  - 瑞典節點丨yoyapai.com\r-078
-  - 🇸🇪SE瑞典節點丨yoyapai.com\r-079
-  - 俄羅斯節點丨yoyapai.com\r-080
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-081
-  - 俄羅斯節點丨yoyapai.com\r-082
-  - 俄羅斯節點丨yoyapai.com\r-083
-  - 🇷🇺RU俄羅斯丨yoyapai.com\r-084
-  - 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-085
-  - 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-086
-  - 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-087
-  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-088
-  - 🇯🇵 日本|@ripaojiedian-089
-  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-090
-  - 🇰🇷KR韓國丨yoyapai.com\r-091
-  - 🇰🇷KR韓國丨yoyapai.com\r-092
-  - 🇰🇷KR韓國丨yoyapai.com\r-093
-  - 🇰🇷KR韓國丨yoyapai.com\r-094
-  - 🇰🇷KR韓國丨yoyapai.com\r-095
-  - 俄羅斯節點丨yoyapai.com\r-096
-  - 🇰🇷KR韓國丨yoyapai.com\r-097
-  - 🇭🇰 香港|@ripaojiedian-098
-  - 🇺🇸 美国 V2CROSS.COM-099
-  - 🇰🇷KR韓國丨yoyapai.com\r-100
-  - 🇸🇬SG新加坡丨yoyapai.com\r-101
-  - 🇰🇷KR韓國丨yoyapai.com\r-102
-  - 🇰🇷KR韓國丨yoyapai.com\r-103
-  - 泰國節點丨yoyapai.com\r-104
-  - 泰國節點丨yoyapai.com\r-105
-  - 泰國節點丨yoyapai.com\r-106
-  - 🇰🇷KR韓國丨yoyapai.com\r-107
-  - 亚太地区 CCZZUU.TOP-108
-  - 🇰🇷 KR韩国(mibei77.com 米贝节点分享)-109
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-110
-  - 8元老牌专线机场：cczzuu.top-111
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-112
-  - 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-113
-  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-114
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-115
-  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)-116
+  - 🇰🇷 KR韩国(mibei77.com 米贝节点分享)-032
+  - 亚太地区 CCZZUU.TOP-033
+  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-034
+  - 🇷🇺RU俄羅斯丨yoyapai.com\r-035
+  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)-036
+  - 🇺🇸 美国 CCZZUU.TOP-037
+  - 荷蘭節點丨yoyapai.com\r-038
+  - 荷蘭節點丨yoyapai.com\r-039
+  - 意大利丨yoyapai.com\r-040
+  - 🇸🇪SE瑞典節點丨yoyapai.com\r-041
+  - 瑞典丨yoyapai.com\r-042
+  - 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-043
+  - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-044
+  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-045
+  - 🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-046
+  - 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-047
+  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-048
+  - 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-049
+  - 🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-050
+  - 🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-051
+  - 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-052
+  - 奧地利節點丨yoyapai.com\r-053
   url: http://www.gstatic.com/generate_204
   interval: 600
 - name: PROXY
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 _US_美国-001
-  - 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-002
-  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-003
-  - 美國丨yoyapai.com\r-004
-  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-005
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-006
-  - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-007
-  - 🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-008
-  - 🇨🇳 TW台湾(mibei77.com 米贝节点分享)-009
-  - 🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-010
-  - 🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-011
-  - 🇺🇸 美国 V2CROSS.COM-012
-  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)-013
-  - 🇺🇸 VMESS-美国>德国-NF解锁印度地区非自制剧-ChatGPT-TikTok-YouTube-support.zoom.us:8080-014
-  - 🇬🇧 英國-015
-  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-016
-  - 英國-017
-  - 🇺🇸 US美國節點-018
-  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-019
-  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-020
-  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-021
-  - 🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-022
-  - 🇩🇪 DE德国(mibei77.com 米贝节点分享)-023
-  - 法國節點丨yoyapai.com\r-024
-  - 🇫🇷FR法國丨yoyapai.com\r-025
-  - 🇮🇪 爱尔兰 V2CROSS.COM-026
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-027
-  - 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-028
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-029
-  - 荷蘭節點丨yoyapai.com\r-030
+  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-001
+  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-002
+  - 🇬🇧 英国 CCZZUU.TOP 3-003
+  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-004
+  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-005
+  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-006
+  - 🇺🇸 美国 CloudFlare节点-007
+  - 🇦🇺 VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-008
+  - 🇺🇸 VMESS-美国>德国-NF解锁印度地区非自制剧-ChatGPT-TikTok-YouTube-support.zoom.us:8080-009
+  - 🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-010
+  - 🇯🇵 VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443-011
+  - 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-012
+  - 🇺🇸 美国 CCZZUU.TOP 2-013
+  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-014
+  - 🇨🇳 TW台湾(mibei77.com 米贝节点分享)-015
+  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-016
+  - 美國丨yoyapai.com\r-017
+  - 🇳🇱NL荷蘭丨yoyapai.com\r-018
+  - 瑞士節點丨yoyapai.com\r-019
+  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-020
+  - 🇰🇷KR韓國丨yoyapai.com\r-021
+  - 🇭🇰 香港|@ripaojiedian-022
+  - 🇰🇷KR韓國丨yoyapai.com\r-023
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-024
+  - 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-025
+  - 拉脫維亞丨yoyapai.com\r-026
+  - 8元老牌专线机场：cczzuu.top-027
+  - 🇳🇱NL荷蘭丨yoyapai.com\r-028
+  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)-029
+  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-030
   - 🇳🇱NL荷蘭丨yoyapai.com\r-031
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-032
-  - 西班牙節點🇪🇸ES丨yoyapai.com\r-033
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-034
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-035
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-036
-  - 🇧🇪BE比利時丨yoyapai.com\r-037
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-038
-  - 捷克節點丨yoyapai.com\r-039
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-040
-  - 🇩🇰DK丹麥丨yoyapai.com\r-041
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-042
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-043
-  - 荷蘭節點丨yoyapai.com\r-044
-  - 🇮🇪 爱尔兰 V2CROSS.COM-045
-  - 瑞士節點丨yoyapai.com\r-046
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-047
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-048
-  - 丹麥節點🇩🇰DK丨yoyapai.com\r-049
-  - 🇨🇭CH臺灣丨yoyapai.com\r-050
-  - 🇦🇺 VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-051
-  - 🇳🇱NL荷蘭丨yoyapai.com\r-052
-  - 意大利節點🇮🇹IT丨yoyapai.com\r-053
-  - 瑞典節點丨yoyapai.com\r-054
-  - 奧地利節點丨yoyapai.com\r-055
-  - 瑞士節點丨yoyapai.com\r-056
-  - 奧地利節點丨yoyapai.com\r-057
-  - 荷蘭節點丨yoyapai.com\r-058
-  - 🇬🇧 GB英国(mibei77.com 米贝节点分享)-059
-  - 瑞士節點丨yoyapai.com\r-060
-  - 🇸🇪SE瑞典節點丨yoyapai.com\r-061
-  - 瑞典丨yoyapai.com\r-062
-  - 意大利丨yoyapai.com\r-063
-  - 🇪🇪EE愛沙尼亞丨yoyapai.com\r-064
-  - 🇸🇪SE瑞典丨yoyapai.com\r-065
-  - 瑞典節點丨yoyapai.com\r-066
-  - 🇺🇸 美国 CloudFlare节点-067
-  - 🇱🇻LV拉脫維亞節點丨yoyapai.com\r-068
-  - 瑞典節點丨yoyapai.com\r-069
-  - 拉脫維亞丨yoyapai.com\r-070
-  - 🇯🇵 VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443-071
-  - 匈牙利節點丨yoyapai.com\r-072
-  - 立陶宛節點🇱🇹LT丨yoyapai.com\r-073
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-074
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-075
-  - 🇱🇹LT立陶宛丨yoyapai.com\r-076
-  - 🇸🇪SE瑞典節點丨yoyapai.com\r-077
-  - 瑞典節點丨yoyapai.com\r-078
-  - 🇸🇪SE瑞典節點丨yoyapai.com\r-079
-  - 俄羅斯節點丨yoyapai.com\r-080
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com\r-081
-  - 俄羅斯節點丨yoyapai.com\r-082
-  - 俄羅斯節點丨yoyapai.com\r-083
-  - 🇷🇺RU俄羅斯丨yoyapai.com\r-084
-  - 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-085
-  - 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-086
-  - 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-087
-  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-088
-  - 🇯🇵 日本|@ripaojiedian-089
-  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-090
-  - 🇰🇷KR韓國丨yoyapai.com\r-091
-  - 🇰🇷KR韓國丨yoyapai.com\r-092
-  - 🇰🇷KR韓國丨yoyapai.com\r-093
-  - 🇰🇷KR韓國丨yoyapai.com\r-094
-  - 🇰🇷KR韓國丨yoyapai.com\r-095
-  - 俄羅斯節點丨yoyapai.com\r-096
-  - 🇰🇷KR韓國丨yoyapai.com\r-097
-  - 🇭🇰 香港|@ripaojiedian-098
-  - 🇺🇸 美国 V2CROSS.COM-099
-  - 🇰🇷KR韓國丨yoyapai.com\r-100
-  - 🇸🇬SG新加坡丨yoyapai.com\r-101
-  - 🇰🇷KR韓國丨yoyapai.com\r-102
-  - 🇰🇷KR韓國丨yoyapai.com\r-103
-  - 泰國節點丨yoyapai.com\r-104
-  - 泰國節點丨yoyapai.com\r-105
-  - 泰國節點丨yoyapai.com\r-106
-  - 🇰🇷KR韓國丨yoyapai.com\r-107
-  - 亚太地区 CCZZUU.TOP-108
-  - 🇰🇷 KR韩国(mibei77.com 米贝节点分享)-109
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-110
-  - 8元老牌专线机场：cczzuu.top-111
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-112
-  - 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)-113
-  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-114
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)-115
-  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)-116
+  - 🇰🇷 KR韩国(mibei77.com 米贝节点分享)-032
+  - 亚太地区 CCZZUU.TOP-033
+  - 🇺🇸 US美国(mibei77.com 米贝节点分享)-034
+  - 🇷🇺RU俄羅斯丨yoyapai.com\r-035
+  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)-036
+  - 🇺🇸 美国 CCZZUU.TOP-037
+  - 荷蘭節點丨yoyapai.com\r-038
+  - 荷蘭節點丨yoyapai.com\r-039
+  - 意大利丨yoyapai.com\r-040
+  - 🇸🇪SE瑞典節點丨yoyapai.com\r-041
+  - 瑞典丨yoyapai.com\r-042
+  - 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-043
+  - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-044
+  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-045
+  - 🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-046
+  - 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-047
+  - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-048
+  - 🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-049
+  - 🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-050
+  - 🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-051
+  - 🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-052
+  - 奧地利節點丨yoyapai.com\r-053
 rules:
 - MATCH,PROXY
