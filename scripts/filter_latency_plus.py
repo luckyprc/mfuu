@@ -8,6 +8,7 @@ import base64
 import time
 import asyncio
 import socket
+import ssl
 import ipaddress
 from urllib.parse import urlsplit, parse_qsl, urlencode, urlunsplit
 import requests
@@ -31,31 +32,23 @@ def try_b64_decode(s: str) -> str | None:
     t = s.strip()
     if not t:
         return None
-    # 如果已经包含明文代理链接，说明不是 base64
     if any(x in t for x in SCHEMES):
         return None
-    
-    # 剔除所有空白字符
     t_clean = ''.join(t.split())
     if len(t_clean) < 20:
         return None
-    
-    # 尝试标准 base64
     try:
         raw = base64.b64decode(t_clean, validate=False).decode("utf-8", "ignore")
         if any(line.startswith(SCHEMES) for line in raw.splitlines()):
             return raw
     except Exception:
         pass
-    
-    # 尝试 URL-safe base64（部分订阅源使用 -_ 替代 +/）
     try:
         raw = base64.urlsafe_b64decode(t_clean + '==', validate=False).decode("utf-8", "ignore")
         if any(line.startswith(SCHEMES) for line in raw.splitlines()):
             return raw
     except Exception:
         pass
-    
     return None
 
 
@@ -159,6 +152,39 @@ async def tcp_latency_ms(host: str, port: int, timeout: float) -> int | None:
         return None
 
 
+async def tls_handshake_ok(host: str, port: int, timeout: float) -> bool:
+    """TLS 握手测试：验证 allowInsecure 兼容性（跳过证书校验）"""
+    if port != 443:
+        return True
+    try:
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        reader, writer = await asyncio.wait_for(
+            asyncio.open_connection(host, port, ssl=ctx), timeout=timeout
+        )
+        writer.close()
+        try:
+            await writer.wait_closed()
+        except Exception:
+            pass
+        return True
+    except Exception:
+        return False
+
+
+async def http_probe_ok(host: str, port: int, timeout: float) -> bool:
+    """HTTP 探测：直接对节点地址发 GET，保留 200/204/301/302"""
+    if port not in (80, 8080, 8880, 2052, 2082, 2095):
+        return True
+    try:
+        url = f"http://{host}:{port}"
+        resp = requests.get(url, timeout=timeout, headers={"User-Agent": "Mozilla/5.0"}, allow_redirects=True)
+        return resp.status_code in (200, 204, 301, 302)
+    except Exception:
+        return False
+
+
 def make_insecure_link(link: str) -> str:
     if link.startswith(("vless://", "trojan://")):
         u = urlsplit(link)
@@ -230,6 +256,16 @@ async def main():
             ms = await tcp_latency_ms(host, port, CONNECT_TIMEOUT_SEC)
 
         if ms is None or ms > MAX_LATENCY_MS:
+            return None
+
+        # 新增：TLS 握手测试（443 端口）
+        if not await tls_handshake_ok(host, port, CONNECT_TIMEOUT_SEC):
+            print(f"  TLS handshake failed: {host}:{port}")
+            return None
+
+        # 新增：HTTP 状态码探测（常见 HTTP 端口）
+        if not await http_probe_ok(host, port, CONNECT_TIMEOUT_SEC):
+            print(f"  HTTP probe failed: {host}:{port}")
             return None
 
         return {
