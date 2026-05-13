@@ -1,0 +1,1674 @@
+{
+  "upstream": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
+  "max_latency_ms": 800,
+  "connect_timeout_sec": 3.0,
+  "concurrency": 100,
+  "skip_cert_verify": true,
+  "tested": 320,
+  "passed": 116,
+  "items": [
+    {
+      "link": "trojan://5027e2a4-c4d2-463a-9508-83a2c7d1ad83@216.24.57.250:443?allowInsecure=0&sni=afrcloud1.mmv.kr&ws=1&wspath=%2F5.223.47.32%3D443#%F0%9F%87%BA%F0%9F%87%B8%20_US_%E7%BE%8E%E5%9B%BD",
+      "link_insecure_hint": "trojan://5027e2a4-c4d2-463a-9508-83a2c7d1ad83@216.24.57.250:443?allowInsecure=1&sni=afrcloud1.mmv.kr&ws=1&wspath=%2F5.223.47.32%3D443#%F0%9F%87%BA%F0%9F%87%B8%20_US_%E7%BE%8E%E5%9B%BD",
+      "host": "216.24.57.250",
+      "port": 443,
+      "ips": [
+        "216.24.57.250"
+      ],
+      "latency_ms": 6,
+      "protocol": "trojan",
+      "identity": "5027e2a4-c4d2-463a-9508-83a2c7d1ad83",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.090227.xyz:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%B8%F0%9F%87%AC%20SG%E6%96%B0%E5%8A%A0%E5%9D%A1%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.090227.xyz:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%B8%F0%9F%87%AC%20SG%E6%96%B0%E5%8A%A0%E5%9D%A1%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "cf.090227.xyz",
+      "port": 443,
+      "ips": [
+        "172.64.152.241",
+        "104.18.35.15",
+        "2606:4700:440a::ac40:98f1",
+        "2a06:98c1:3105::6812:230f"
+      ],
+      "latency_ms": 7,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@15.204.247.49:12000#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-15.204.247.49%3A12000",
+      "link_insecure_hint": "ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@15.204.247.49:12000#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-15.204.247.49%3A12000",
+      "host": "15.204.247.49",
+      "port": 12000,
+      "ips": [
+        "15.204.247.49"
+      ],
+      "latency_ms": 8,
+      "protocol": "ss",
+      "identity": "15.204.247.49:12000",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@172.66.44.230:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%BE%8E%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@172.66.44.230:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%BE%8E%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "172.66.44.230",
+      "port": 8443,
+      "ips": [
+        "172.66.44.230"
+      ],
+      "latency_ms": 8,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpORFJ5U0lBQkFSYkVyTklWc0NOVmt5WUFIaUJ6aHZlVA@23.95.75.146:443#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-23.95.75.146%3A443",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpORFJ5U0lBQkFSYkVyTklWc0NOVmt5WUFIaUJ6aHZlVA@23.95.75.146:443#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-23.95.75.146%3A443",
+      "host": "23.95.75.146",
+      "port": 443,
+      "ips": [
+        "23.95.75.146"
+      ],
+      "latency_ms": 11,
+      "protocol": "ss",
+      "identity": "23.95.75.146:443",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.zhetengsha.eu.org:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.zhetengsha.eu.org:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "cf.zhetengsha.eu.org",
+      "port": 443,
+      "ips": [
+        "104.18.43.174",
+        "172.64.144.82",
+        "2a06:98c1:3108::6812:2a62",
+        "2a06:98c1:3101::ac40:919e"
+      ],
+      "latency_ms": 16,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt5pyq55+lPue+juWbvS1ORuino+mUgeiHquWItuWJpy1DaGF0R1BULVRpa1Rvay1Zb3VUdWJlLWhndHJvamFuLnphYmMubmV0OjIwODMiLCJhZGQiOiJoZ3Ryb2phbi56YWJjLm5ldCIsInBvcnQiOiIyMDgzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU2Mzk1YzIwLTQ1NzEtNGIzNC1kNmIxLTU1YTVkMzZlNDllYSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZTYzOTVjMjAiLCJob3N0IjoiaGd0cm9qYW4uemFiYy5uZXQiLCJ0bHMiOiJ0bHMifQ==",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt5pyq55+lPue+juWbvS1ORuino+mUgeiHquWItuWJpy1DaGF0R1BULVRpa1Rvay1Zb3VUdWJlLWhndHJvamFuLnphYmMubmV0OjIwODMiLCJhZGQiOiJoZ3Ryb2phbi56YWJjLm5ldCIsInBvcnQiOiIyMDgzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU2Mzk1YzIwLTQ1NzEtNGIzNC1kNmIxLTU1YTVkMzZlNDllYSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZTYzOTVjMjAiLCJob3N0IjoiaGd0cm9qYW4uemFiYy5uZXQiLCJ0bHMiOiJ0bHMifQ==",
+      "host": "hgtrojan.zabc.net",
+      "port": 2083,
+      "ips": [
+        "104.18.16.77",
+        "104.18.17.77",
+        "2606:4700::6812:114d",
+        "2606:4700::6812:104d"
+      ],
+      "latency_ms": 18,
+      "protocol": "vmess",
+      "identity": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
+      "tls_like": true,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.164.29:12000#%F0%9F%87%A8%F0%9F%87%A6%20SS-%E5%8A%A0%E6%8B%BF%E5%A4%A7%3E%E8%8B%B1%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%8B%B1%E5%9B%BD%E5%9C%B0%E5%8C%BA%E9%9D%9E%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-144.217.164.29%3A12000",
+      "link_insecure_hint": "ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.164.29:12000#%F0%9F%87%A8%F0%9F%87%A6%20SS-%E5%8A%A0%E6%8B%BF%E5%A4%A7%3E%E8%8B%B1%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%8B%B1%E5%9B%BD%E5%9C%B0%E5%8C%BA%E9%9D%9E%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-144.217.164.29%3A12000",
+      "host": "144.217.164.29",
+      "port": 12000,
+      "ips": [
+        "144.217.164.29"
+      ],
+      "latency_ms": 19,
+      "protocol": "ss",
+      "identity": "144.217.164.29:12000",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@sub.danfeng.eu.org:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%A8%F0%9F%87%B3%20TW%E5%8F%B0%E6%B9%BE%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@sub.danfeng.eu.org:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%A8%F0%9F%87%B3%20TW%E5%8F%B0%E6%B9%BE%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "sub.danfeng.eu.org",
+      "port": 443,
+      "ips": [
+        "172.67.70.92",
+        "104.26.4.60",
+        "104.26.5.60"
+      ],
+      "latency_ms": 22,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@45.154.204.7:990#%F0%9F%87%A6%F0%9F%87%BF%20SS-%E9%98%BF%E5%A1%9E%E6%8B%9C%E7%96%86-NF%E8%A7%A3%E9%94%81%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%9C%B0%E5%8C%BA%E9%9D%9E%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-45.154.204.7%3A990",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@45.154.204.7:990#%F0%9F%87%A6%F0%9F%87%BF%20SS-%E9%98%BF%E5%A1%9E%E6%8B%9C%E7%96%86-NF%E8%A7%A3%E9%94%81%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%9C%B0%E5%8C%BA%E9%9D%9E%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-45.154.204.7%3A990",
+      "host": "45.154.204.7",
+      "port": 990,
+      "ips": [
+        "45.154.204.7"
+      ],
+      "latency_ms": 25,
+      "protocol": "ss",
+      "identity": "45.154.204.7:990",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@23.95.76.59:990#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%9C%B0%E5%8C%BA%E9%9D%9E%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-23.95.76.59%3A990",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@23.95.76.59:990#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%9C%B0%E5%8C%BA%E9%9D%9E%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-23.95.76.59%3A990",
+      "host": "23.95.76.59",
+      "port": 990,
+      "ips": [
+        "23.95.76.59"
+      ],
+      "latency_ms": 25,
+      "protocol": "ss",
+      "identity": "23.95.76.59:990",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHeVo1WG8waHQ0MXZZbVczSDQ@149.28.255.6:816#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20V2CROSS.COM",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHeVo1WG8waHQ0MXZZbVczSDQ@149.28.255.6:816#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20V2CROSS.COM",
+      "host": "149.28.255.6",
+      "port": 816,
+      "ips": [
+        "149.28.255.6"
+      ],
+      "latency_ms": 30,
+      "protocol": "ss",
+      "identity": "149.28.255.6:816",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cdns.doon.eu.org:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AF%F0%9F%87%B5%20JP%E6%97%A5%E6%9C%AC%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cdns.doon.eu.org:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AF%F0%9F%87%B5%20JP%E6%97%A5%E6%9C%AC%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "cdns.doon.eu.org",
+      "port": 443,
+      "ips": [
+        "172.64.145.202",
+        "104.18.42.54"
+      ],
+      "latency_ms": 37,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9PuW+t+WbvS1ORuino+mUgeWNsOW6puWcsOWMuumdnuiHquWItuWJpy1DaGF0R1BULVRpa1Rvay1Zb3VUdWJlLXN1cHBvcnQuem9vbS51czo4MDgwIiwiYWRkIjoic3VwcG9ydC56b29tLnVzIiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDRlNTc0ODUtZWNjYy00NmVmLTgwOGYtY2QxN2FjODEwMDE4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9ATWFsaW5kYTYxMDQiLCJob3N0Ijoic3VwcG9ydC56b29tLnVzIiwidGxzIjoiIn0=",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9PuW+t+WbvS1ORuino+mUgeWNsOW6puWcsOWMuumdnuiHquWItuWJpy1DaGF0R1BULVRpa1Rvay1Zb3VUdWJlLXN1cHBvcnQuem9vbS51czo4MDgwIiwiYWRkIjoic3VwcG9ydC56b29tLnVzIiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDRlNTc0ODUtZWNjYy00NmVmLTgwOGYtY2QxN2FjODEwMDE4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9ATWFsaW5kYTYxMDQiLCJob3N0Ijoic3VwcG9ydC56b29tLnVzIiwidGxzIjoiIn0=",
+      "host": "support.zoom.us",
+      "port": 8080,
+      "ips": [
+        "170.114.45.6",
+        "170.114.46.6",
+        "2407:30c0:180::6",
+        "2407:30c0:181::6"
+      ],
+      "latency_ms": 61,
+      "protocol": "vmess",
+      "identity": "44e57485-eccc-46ef-808f-cd17ac810018",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://ewogICJ2IjogMiwKICAicHMiOiAi8J+HrPCfh6cg6Iux5ZyLIiwKICAiYWRkIjogIjgyLjE5OC4yNDYuMjMzIiwKICAicG9ydCI6IDE4MCwKICAiaWQiOiAiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwKICAiYWlkIjogMCwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6IG51bGwsCiAgImhvc3QiOiAidHJvamFuLmJ1cmdlcmlwLmNvLnVrIiwKICAicGF0aCI6ICIvIiwKICAidGxzIjogZmFsc2UsCiAgInNuaSI6ICIiCn0=",
+      "link_insecure_hint": "vmess://ewogICJ2IjogMiwKICAicHMiOiAi8J+HrPCfh6cg6Iux5ZyLIiwKICAiYWRkIjogIjgyLjE5OC4yNDYuMjMzIiwKICAicG9ydCI6IDE4MCwKICAiaWQiOiAiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwKICAiYWlkIjogMCwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6IG51bGwsCiAgImhvc3QiOiAidHJvamFuLmJ1cmdlcmlwLmNvLnVrIiwKICAicGF0aCI6ICIvIiwKICAidGxzIjogZmFsc2UsCiAgInNuaSI6ICIiCn0=",
+      "host": "82.198.246.233",
+      "port": 180,
+      "ips": [
+        "82.198.246.233"
+      ],
+      "latency_ms": 61,
+      "protocol": "vmess",
+      "identity": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrPCfh6cgR0Loi7Hlm70obWliZWk3Ny5jb20g57Gz6LSd6IqC54K55YiG5LqrKSIsImFkZCI6IjgyLjE5OC4yNDYuMzciLCJwb3J0IjoiMTgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrPCfh6cgR0Loi7Hlm70obWliZWk3Ny5jb20g57Gz6LSd6IqC54K55YiG5LqrKSIsImFkZCI6IjgyLjE5OC4yNDYuMzciLCJwb3J0IjoiMTgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==",
+      "host": "82.198.246.37",
+      "port": 180,
+      "ips": [
+        "82.198.246.37"
+      ],
+      "latency_ms": 61,
+      "protocol": "vmess",
+      "identity": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://ewogICJ2IjogMiwKICAicHMiOiAi6Iux5ZyLIiwKICAiYWRkIjogIjgyLjE5OC4yNDYuMjE0IiwKICAicG9ydCI6IDE4MCwKICAiaWQiOiAiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwKICAiYWlkIjogMCwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6IG51bGwsCiAgImhvc3QiOiAiODIuMTk4LjI0Ni4yMTQiLAogICJwYXRoIjogIi8iLAogICJ0bHMiOiBmYWxzZSwKICAic25pIjogIiIKfQ==",
+      "link_insecure_hint": "vmess://ewogICJ2IjogMiwKICAicHMiOiAi6Iux5ZyLIiwKICAiYWRkIjogIjgyLjE5OC4yNDYuMjE0IiwKICAicG9ydCI6IDE4MCwKICAiaWQiOiAiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwKICAiYWlkIjogMCwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6IG51bGwsCiAgImhvc3QiOiAiODIuMTk4LjI0Ni4yMTQiLAogICJwYXRoIjogIi8iLAogICJ0bHMiOiBmYWxzZSwKICAic25pIjogIiIKfQ==",
+      "host": "82.198.246.214",
+      "port": 180,
+      "ips": [
+        "82.198.246.214"
+      ],
+      "latency_ms": 62,
+      "protocol": "vmess",
+      "identity": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://ewogICJ2IjogMiwKICAicHMiOiAi8J+HuvCfh7ggVVPnvo7lnIvnr4Dpu54iLAogICJhZGQiOiAiODIuMTk4LjI0Ni45NyIsCiAgInBvcnQiOiAxODAsCiAgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsCiAgImFpZCI6IDAsCiAgInNjeSI6ICJhdXRvIiwKICAibmV0IjogInRjcCIsCiAgInR5cGUiOiBudWxsLAogICJob3N0IjogIjQxMjAtYmUwNC0xM0VGNTYwOTY5ODkuNDU3LlBwLlVhIiwKICAicGF0aCI6ICIva1Q1VkhZY01ycGhlc3FST3pTUG9IckJvIiwKICAidGxzIjogZmFsc2UsCiAgInNuaSI6ICIiCn0=",
+      "link_insecure_hint": "vmess://ewogICJ2IjogMiwKICAicHMiOiAi8J+HuvCfh7ggVVPnvo7lnIvnr4Dpu54iLAogICJhZGQiOiAiODIuMTk4LjI0Ni45NyIsCiAgInBvcnQiOiAxODAsCiAgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsCiAgImFpZCI6IDAsCiAgInNjeSI6ICJhdXRvIiwKICAibmV0IjogInRjcCIsCiAgInR5cGUiOiBudWxsLAogICJob3N0IjogIjQxMjAtYmUwNC0xM0VGNTYwOTY5ODkuNDU3LlBwLlVhIiwKICAicGF0aCI6ICIva1Q1VkhZY01ycGhlc3FST3pTUG9IckJvIiwKICAidGxzIjogZmFsc2UsCiAgInNuaSI6ICIiCn0=",
+      "host": "82.198.246.97",
+      "port": 180,
+      "ips": [
+        "82.198.246.97"
+      ],
+      "latency_ms": 62,
+      "protocol": "vmess",
+      "identity": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrPCfh6cgR0Loi7Hlm70obWliZWk3Ny5jb20g57Gz6LSd6IqC54K55YiG5LqrKSIsImFkZCI6IjgyLjE5OC4yNDYuOSIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6Inllc3BhaW50c3R1ZGlvLnJhdi1rcmFza2kucnUiLCJ0bHMiOiIifQ==",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrPCfh6cgR0Loi7Hlm70obWliZWk3Ny5jb20g57Gz6LSd6IqC54K55YiG5LqrKSIsImFkZCI6IjgyLjE5OC4yNDYuOSIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6Inllc3BhaW50c3R1ZGlvLnJhdi1rcmFza2kucnUiLCJ0bHMiOiIifQ==",
+      "host": "82.198.246.9",
+      "port": 180,
+      "ips": [
+        "82.198.246.9"
+      ],
+      "latency_ms": 62,
+      "protocol": "vmess",
+      "identity": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrPCfh6cgR0Loi7Hlm70obWliZWk3Ny5jb20g57Gz6LSd6IqC54K55YiG5LqrKSIsImFkZCI6IjgyLjE5OC4yNDYuMjUwIiwicG9ydCI6IjE4MCIsInR5cGUiOiJub25lIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiYWRzLng1LnJ1IiwidGxzIjoiIn0=",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrPCfh6cgR0Loi7Hlm70obWliZWk3Ny5jb20g57Gz6LSd6IqC54K55YiG5LqrKSIsImFkZCI6IjgyLjE5OC4yNDYuMjUwIiwicG9ydCI6IjE4MCIsInR5cGUiOiJub25lIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiYWRzLng1LnJ1IiwidGxzIjoiIn0=",
+      "host": "82.198.246.250",
+      "port": 180,
+      "ips": [
+        "82.198.246.250"
+      ],
+      "latency_ms": 62,
+      "protocol": "vmess",
+      "identity": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@71.19.148.143:443#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-71.19.148.143%3A443",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@71.19.148.143:443#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-71.19.148.143%3A443",
+      "host": "71.19.148.143",
+      "port": 443,
+      "ips": [
+        "71.19.148.143"
+      ],
+      "latency_ms": 68,
+      "protocol": "ss",
+      "identity": "71.19.148.143:443",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@79.127.233.170:990#%F0%9F%87%A8%F0%9F%87%A6%20SS-%E8%8B%B1%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%9C%B0%E5%8C%BA%E9%9D%9E%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-79.127.233.170%3A990",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@79.127.233.170:990#%F0%9F%87%A8%F0%9F%87%A6%20SS-%E8%8B%B1%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%9C%B0%E5%8C%BA%E9%9D%9E%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-79.127.233.170%3A990",
+      "host": "79.127.233.170",
+      "port": 990,
+      "ips": [
+        "79.127.233.170"
+      ],
+      "latency_ms": 73,
+      "protocol": "ss",
+      "identity": "79.127.233.170:990",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#%F0%9F%87%A9%F0%9F%87%AA%20DE%E5%BE%B7%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#%F0%9F%87%A9%F0%9F%87%AA%20DE%E5%BE%B7%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "hackney-latest-strike.freesocks.work",
+      "port": 443,
+      "ips": [
+        "71.19.148.74",
+        "2605:2700:0:2:a800:ff:fe9d:bd41"
+      ],
+      "latency_ms": 75,
+      "protocol": "ss",
+      "identity": "hackney-latest-strike.freesocks.work:443",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@138.124.81.204:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%B3%95%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@138.124.81.204:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%B3%95%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "138.124.81.204",
+      "port": 443,
+      "ips": [
+        "138.124.81.204"
+      ],
+      "latency_ms": 80,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@109.61.110.241:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%AB%F0%9F%87%B7FR%E6%B3%95%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@109.61.110.241:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%AB%F0%9F%87%B7FR%E6%B3%95%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "109.61.110.241",
+      "port": 443,
+      "ips": [
+        "109.61.110.241"
+      ],
+      "latency_ms": 81,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0%20V2CROSS.COM",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0%20V2CROSS.COM",
+      "host": "series-a1.samanehha.co",
+      "port": 443,
+      "ips": [
+        "20.50.115.12"
+      ],
+      "latency_ms": 84,
+      "protocol": "ss",
+      "identity": "series-a1.samanehha.co:443",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@144.31.122.162:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@144.31.122.162:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "144.31.122.162",
+      "port": 8443,
+      "ips": [
+        "144.31.122.162"
+      ],
+      "latency_ms": 89,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9LU5G6Kej6ZSB6Ieq5Yi25YmnLUNoYXRHUFQtVGlrVG9rLVlvdVR1YmUtY2cxYzAxLndhaW1hb2pkLmNvbTo0NDMiLCJhZGQiOiJjZzFjMDEud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiZThlMzEzNi1iODc0LTQwODUtYmQyMy1lYzM2OTkzMDA0OTAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwiaG9zdCI6ImNnMWMwMS53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMifQ==",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9LU5G6Kej6ZSB6Ieq5Yi25YmnLUNoYXRHUFQtVGlrVG9rLVlvdVR1YmUtY2cxYzAxLndhaW1hb2pkLmNvbTo0NDMiLCJhZGQiOiJjZzFjMDEud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiZThlMzEzNi1iODc0LTQwODUtYmQyMy1lYzM2OTkzMDA0OTAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwiaG9zdCI6ImNnMWMwMS53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMifQ==",
+      "host": "cg1c01.waimaojd.com",
+      "port": 443,
+      "ips": [
+        "67.21.83.58"
+      ],
+      "latency_ms": 90,
+      "protocol": "vmess",
+      "identity": "be8e3136-b874-4085-bd23-ec3699300490",
+      "tls_like": true,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@31.15.18.58:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@31.15.18.58:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "31.15.18.58",
+      "port": 8443,
+      "ips": [
+        "31.15.18.58"
+      ],
+      "latency_ms": 90,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@31.15.17.129:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E8%8D%B7%E8%98%AD%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@31.15.17.129:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E8%8D%B7%E8%98%AD%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "31.15.17.129",
+      "port": 2053,
+      "ips": [
+        "31.15.17.129"
+      ],
+      "latency_ms": 91,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.162.9.60:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.162.9.60:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "185.162.9.60",
+      "port": 8443,
+      "ips": [
+        "185.162.9.60"
+      ],
+      "latency_ms": 91,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@91.221.191.120:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@91.221.191.120:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "91.221.191.120",
+      "port": 8443,
+      "ips": [
+        "91.221.191.120"
+      ],
+      "latency_ms": 91,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@172.233.97.34:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E8%A5%BF%E7%8F%AD%E7%89%99%E7%AF%80%E9%BB%9E%F0%9F%87%AA%F0%9F%87%B8ES%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@172.233.97.34:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E8%A5%BF%E7%8F%AD%E7%89%99%E7%AF%80%E9%BB%9E%F0%9F%87%AA%F0%9F%87%B8ES%E4%B8%A8yoyapai.com%5Cr",
+      "host": "172.233.97.34",
+      "port": 443,
+      "ips": [
+        "172.233.97.34"
+      ],
+      "latency_ms": 91,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.31.200.184:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.31.200.184:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "185.31.200.184",
+      "port": 2053,
+      "ips": [
+        "185.31.200.184"
+      ],
+      "latency_ms": 92,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.52.0.84:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.52.0.84:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "185.52.0.84",
+      "port": 443,
+      "ips": [
+        "185.52.0.84"
+      ],
+      "latency_ms": 92,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@91.221.190.80:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@91.221.190.80:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "91.221.190.80",
+      "port": 443,
+      "ips": [
+        "91.221.190.80"
+      ],
+      "latency_ms": 92,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@95.164.62.196:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%A7%F0%9F%87%AABE%E6%AF%94%E5%88%A9%E6%99%82%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@95.164.62.196:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%A7%F0%9F%87%AABE%E6%AF%94%E5%88%A9%E6%99%82%E4%B8%A8yoyapai.com%5Cr",
+      "host": "95.164.62.196",
+      "port": 443,
+      "ips": [
+        "95.164.62.196"
+      ],
+      "latency_ms": 93,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@152.53.200.164:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@152.53.200.164:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "152.53.200.164",
+      "port": 8443,
+      "ips": [
+        "152.53.200.164"
+      ],
+      "latency_ms": 94,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.253.46.5:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%8D%B7%E5%85%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.253.46.5:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%8D%B7%E5%85%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "185.253.46.5",
+      "port": 443,
+      "ips": [
+        "185.253.46.5"
+      ],
+      "latency_ms": 94,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.233.61:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.233.61:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "38.180.233.61",
+      "port": 443,
+      "ips": [
+        "38.180.233.61"
+      ],
+      "latency_ms": 95,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@77.37.96.132:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%A9%F0%9F%87%B0DK%E4%B8%B9%E9%BA%A5%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@77.37.96.132:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%A9%F0%9F%87%B0DK%E4%B8%B9%E9%BA%A5%E4%B8%A8yoyapai.com%5Cr",
+      "host": "77.37.96.132",
+      "port": 443,
+      "ips": [
+        "77.37.96.132"
+      ],
+      "latency_ms": 95,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@95.169.192.234:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@95.169.192.234:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "95.169.192.234",
+      "port": 8443,
+      "ips": [
+        "95.169.192.234"
+      ],
+      "latency_ms": 96,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.70.111:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.70.111:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "38.180.70.111",
+      "port": 443,
+      "ips": [
+        "38.180.70.111"
+      ],
+      "latency_ms": 96,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@152.53.200.89:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E8%8D%B7%E8%98%AD%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@152.53.200.89:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E8%8D%B7%E8%98%AD%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "152.53.200.89",
+      "port": 8443,
+      "ips": [
+        "152.53.200.89"
+      ],
+      "latency_ms": 96,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a2.samanehha.co:443#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0%20V2CROSS.COM",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a2.samanehha.co:443#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0%20V2CROSS.COM",
+      "host": "series-a2.samanehha.co",
+      "port": 443,
+      "ips": [
+        "20.50.115.12"
+      ],
+      "latency_ms": 97,
+      "protocol": "ss",
+      "identity": "series-a2.samanehha.co:443",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@91.192.102.55:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%A3%AB%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@91.192.102.55:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%A3%AB%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "91.192.102.55",
+      "port": 443,
+      "ips": [
+        "91.192.102.55"
+      ],
+      "latency_ms": 97,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.96.40:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.96.40:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "38.180.96.40",
+      "port": 443,
+      "ips": [
+        "38.180.96.40"
+      ],
+      "latency_ms": 98,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.145.171.206:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.145.171.206:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "45.145.171.206",
+      "port": 443,
+      "ips": [
+        "45.145.171.206"
+      ],
+      "latency_ms": 98,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@77.37.96.247:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%B8%B9%E9%BA%A5%E7%AF%80%E9%BB%9E%F0%9F%87%A9%F0%9F%87%B0DK%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@77.37.96.247:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%B8%B9%E9%BA%A5%E7%AF%80%E9%BB%9E%F0%9F%87%A9%F0%9F%87%B0DK%E4%B8%A8yoyapai.com%5Cr",
+      "host": "77.37.96.247",
+      "port": 443,
+      "ips": [
+        "77.37.96.247"
+      ],
+      "latency_ms": 98,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@146.70.71.157:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%A8%F0%9F%87%ADCH%E8%87%BA%E7%81%A3%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@146.70.71.157:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%A8%F0%9F%87%ADCH%E8%87%BA%E7%81%A3%E4%B8%A8yoyapai.com%5Cr",
+      "host": "146.70.71.157",
+      "port": 443,
+      "ips": [
+        "146.70.71.157"
+      ],
+      "latency_ms": 98,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HpvCfh7ogVk1FU1Mt5pyq55+lPua+s+Wkp+WIqeS6mi1ORuino+mUgea+s+Wkp+WIqeS6muiHquWItuWJpy1DaGF0R1BULVRpa1Rvay1Zb3VUdWJlLXN5NC42MjA3MjAueHl6OjQ0MyIsImFkZCI6InN5NC42MjA3MjAueHl6IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI1MTZkOGE3YS0zZjBiLTQxZDMtYmFkMC0yNDYxMTYzODE1MTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJzeTQuNjIwNzIwLnh5eiIsInRscyI6InRscyJ9",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HpvCfh7ogVk1FU1Mt5pyq55+lPua+s+Wkp+WIqeS6mi1ORuino+mUgea+s+Wkp+WIqeS6muiHquWItuWJpy1DaGF0R1BULVRpa1Rvay1Zb3VUdWJlLXN5NC42MjA3MjAueHl6OjQ0MyIsImFkZCI6InN5NC42MjA3MjAueHl6IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI1MTZkOGE3YS0zZjBiLTQxZDMtYmFkMC0yNDYxMTYzODE1MTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJzeTQuNjIwNzIwLnh5eiIsInRscyI6InRscyJ9",
+      "host": "sy4.620720.xyz",
+      "port": 443,
+      "ips": [
+        "104.21.76.158",
+        "172.67.197.47",
+        "2606:4700:3032::ac43:c52f",
+        "2606:4700:3037::6815:4c9e"
+      ],
+      "latency_ms": 99,
+      "protocol": "vmess",
+      "identity": "516d8a7a-3f0b-41d3-bad0-246116381516",
+      "tls_like": true,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@2.59.183.210:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@2.59.183.210:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "host": "2.59.183.210",
+      "port": 443,
+      "ips": [
+        "2.59.183.210"
+      ],
+      "latency_ms": 99,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@151.241.215.148:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%84%8F%E5%A4%A7%E5%88%A9%E7%AF%80%E9%BB%9E%F0%9F%87%AE%F0%9F%87%B9IT%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@151.241.215.148:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%84%8F%E5%A4%A7%E5%88%A9%E7%AF%80%E9%BB%9E%F0%9F%87%AE%F0%9F%87%B9IT%E4%B8%A8yoyapai.com%5Cr",
+      "host": "151.241.215.148",
+      "port": 443,
+      "ips": [
+        "151.241.215.148"
+      ],
+      "latency_ms": 101,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@64.112.127.151:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@64.112.127.151:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "64.112.127.151",
+      "port": 443,
+      "ips": [
+        "64.112.127.151"
+      ],
+      "latency_ms": 101,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@46.102.156.144:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E5%A5%A7%E5%9C%B0%E5%88%A9%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@46.102.156.144:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E5%A5%A7%E5%9C%B0%E5%88%A9%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "46.102.156.144",
+      "port": 2053,
+      "ips": [
+        "46.102.156.144"
+      ],
+      "latency_ms": 102,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@140.238.208.240:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%A3%AB%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@140.238.208.240:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%A3%AB%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "140.238.208.240",
+      "port": 443,
+      "ips": [
+        "140.238.208.240"
+      ],
+      "latency_ms": 103,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.143.51:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E5%A5%A7%E5%9C%B0%E5%88%A9%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.143.51:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E5%A5%A7%E5%9C%B0%E5%88%A9%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "38.180.143.51",
+      "port": 2053,
+      "ips": [
+        "38.180.143.51"
+      ],
+      "latency_ms": 103,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@77.110.103.243:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E8%8D%B7%E8%98%AD%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@77.110.103.243:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E8%8D%B7%E8%98%AD%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "77.110.103.243",
+      "port": 8443,
+      "ips": [
+        "77.110.103.243"
+      ],
+      "latency_ms": 103,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#%F0%9F%87%AC%F0%9F%87%A7%20GB%E8%8B%B1%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#%F0%9F%87%AC%F0%9F%87%A7%20GB%E8%8B%B1%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "82.38.31.149",
+      "port": 8080,
+      "ips": [
+        "82.38.31.149"
+      ],
+      "latency_ms": 103,
+      "protocol": "ss",
+      "identity": "82.38.31.149:8080",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.84.86:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%A3%AB%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.84.86:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%A3%AB%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "38.180.84.86",
+      "port": 443,
+      "ips": [
+        "38.180.84.86"
+      ],
+      "latency_ms": 105,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.153.187.209:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.153.187.209:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "45.153.187.209",
+      "port": 8443,
+      "ips": [
+        "45.153.187.209"
+      ],
+      "latency_ms": 106,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@16.16.45.85:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@16.16.45.85:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E4%B8%A8yoyapai.com%5Cr",
+      "host": "16.16.45.85",
+      "port": 8443,
+      "ips": [
+        "16.16.45.85"
+      ],
+      "latency_ms": 107,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.194.222:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%84%8F%E5%A4%A7%E5%88%A9%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.194.222:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%84%8F%E5%A4%A7%E5%88%A9%E4%B8%A8yoyapai.com%5Cr",
+      "host": "38.180.194.222",
+      "port": 2053,
+      "ips": [
+        "38.180.194.222"
+      ],
+      "latency_ms": 108,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@5.189.254.235:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%AA%F0%9F%87%AAEE%E6%84%9B%E6%B2%99%E5%B0%BC%E4%BA%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@5.189.254.235:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%AA%F0%9F%87%AAEE%E6%84%9B%E6%B2%99%E5%B0%BC%E4%BA%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "5.189.254.235",
+      "port": 443,
+      "ips": [
+        "5.189.254.235"
+      ],
+      "latency_ms": 108,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@176.125.240.63:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@176.125.240.63:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E4%B8%A8yoyapai.com%5Cr",
+      "host": "176.125.240.63",
+      "port": 2053,
+      "ips": [
+        "176.125.240.63"
+      ],
+      "latency_ms": 110,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@176.125.240.147:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@176.125.240.147:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "176.125.240.147",
+      "port": 2053,
+      "ips": [
+        "176.125.240.147"
+      ],
+      "latency_ms": 110,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IENsb3VkRmxhcmXoioLngrkiLCJhZGQiOiJjZi5zY3BuYi50b3AiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImI0YmIzMGIxLWI0YTItNGI3Ni05MGVkLWM3ZDU0ZWM3MWQ2OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYjRiYjMwYjEtYjRhMi00Yjc2LTkwZWQtYzdkNTRlYzcxZDY5LXZtIiwiaG9zdCI6ImNmLnNjcG5iLnRvcCIsInRscyI6InRscyJ9",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IENsb3VkRmxhcmXoioLngrkiLCJhZGQiOiJjZi5zY3BuYi50b3AiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImI0YmIzMGIxLWI0YTItNGI3Ni05MGVkLWM3ZDU0ZWM3MWQ2OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYjRiYjMwYjEtYjRhMi00Yjc2LTkwZWQtYzdkNTRlYzcxZDY5LXZtIiwiaG9zdCI6ImNmLnNjcG5iLnRvcCIsInRscyI6InRscyJ9",
+      "host": "cf.scpnb.top",
+      "port": 443,
+      "ips": [
+        "104.18.42.54",
+        "172.64.145.202"
+      ],
+      "latency_ms": 110,
+      "protocol": "vmess",
+      "identity": "b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69",
+      "tls_like": true,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@91.239.23.10:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B1%F0%9F%87%BBLV%E6%8B%89%E8%84%AB%E7%B6%AD%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@91.239.23.10:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B1%F0%9F%87%BBLV%E6%8B%89%E8%84%AB%E7%B6%AD%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "91.239.23.10",
+      "port": 443,
+      "ips": [
+        "91.239.23.10"
+      ],
+      "latency_ms": 111,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@83.147.254.243:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@83.147.254.243:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "83.147.254.243",
+      "port": 443,
+      "ips": [
+        "83.147.254.243"
+      ],
+      "latency_ms": 112,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@146.19.84.236:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%8B%89%E8%84%AB%E7%B6%AD%E4%BA%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@146.19.84.236:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%8B%89%E8%84%AB%E7%B6%AD%E4%BA%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "146.19.84.236",
+      "port": 2053,
+      "ips": [
+        "146.19.84.236"
+      ],
+      "latency_ms": 112,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7UgVk1FU1Mt576O5Zu9PuaXpeacrC1ORuino+mUgeaXpeacrOWcsOWMuumdnuiHquWItuWJpy1DaGF0R1BULVlvdVR1YmUtdDEuNjIwNzIwLnh5ejo4NDQzIiwiYWRkIjoidDEuNjIwNzIwLnh5eiIsInBvcnQiOiI4NDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjUxNmQ4YTdhLTNmMGItNDFkMy1iYWQwLTI0NjExNjM4MTUxNiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InQxLjYyMDcyMC54eXoiLCJ0bHMiOiJ0bHMifQ==",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7UgVk1FU1Mt576O5Zu9PuaXpeacrC1ORuino+mUgeaXpeacrOWcsOWMuumdnuiHquWItuWJpy1DaGF0R1BULVlvdVR1YmUtdDEuNjIwNzIwLnh5ejo4NDQzIiwiYWRkIjoidDEuNjIwNzIwLnh5eiIsInBvcnQiOiI4NDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjUxNmQ4YTdhLTNmMGItNDFkMy1iYWQwLTI0NjExNjM4MTUxNiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InQxLjYyMDcyMC54eXoiLCJ0bHMiOiJ0bHMifQ==",
+      "host": "t1.620720.xyz",
+      "port": 8443,
+      "ips": [
+        "172.67.197.47",
+        "104.21.76.158",
+        "2606:4700:3037::6815:4c9e",
+        "2606:4700:3032::ac43:c52f"
+      ],
+      "latency_ms": 113,
+      "protocol": "vmess",
+      "identity": "516d8a7a-3f0b-41d3-bad0-246116381516",
+      "tls_like": true,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@180.149.37.38:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E5%8C%88%E7%89%99%E5%88%A9%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@180.149.37.38:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E5%8C%88%E7%89%99%E5%88%A9%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "180.149.37.38",
+      "port": 8443,
+      "ips": [
+        "180.149.37.38"
+      ],
+      "latency_ms": 113,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@46.29.234.91:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%AB%8B%E9%99%B6%E5%AE%9B%E7%AF%80%E9%BB%9E%F0%9F%87%B1%F0%9F%87%B9LT%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@46.29.234.91:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%AB%8B%E9%99%B6%E5%AE%9B%E7%AF%80%E9%BB%9E%F0%9F%87%B1%F0%9F%87%B9LT%E4%B8%A8yoyapai.com%5Cr",
+      "host": "46.29.234.91",
+      "port": 8443,
+      "ips": [
+        "46.29.234.91"
+      ],
+      "latency_ms": 114,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.205.71:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B7%F0%9F%87%B4RO%E7%BE%85%E9%A6%AC%E5%B0%BC%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.205.71:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B7%F0%9F%87%B4RO%E7%BE%85%E9%A6%AC%E5%B0%BC%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "38.180.205.71",
+      "port": 443,
+      "ips": [
+        "38.180.205.71"
+      ],
+      "latency_ms": 115,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.35.88:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B7%F0%9F%87%B4RO%E7%BE%85%E9%A6%AC%E5%B0%BC%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@38.180.35.88:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B7%F0%9F%87%B4RO%E7%BE%85%E9%A6%AC%E5%B0%BC%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "38.180.35.88",
+      "port": 443,
+      "ips": [
+        "38.180.35.88"
+      ],
+      "latency_ms": 117,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.80.128.115:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B1%F0%9F%87%B9LT%E7%AB%8B%E9%99%B6%E5%AE%9B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.80.128.115:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B1%F0%9F%87%B9LT%E7%AB%8B%E9%99%B6%E5%AE%9B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "185.80.128.115",
+      "port": 8443,
+      "ips": [
+        "185.80.128.115"
+      ],
+      "latency_ms": 119,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@83.147.254.168:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@83.147.254.168:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "83.147.254.168",
+      "port": 443,
+      "ips": [
+        "83.147.254.168"
+      ],
+      "latency_ms": 119,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.104.151.181:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@185.104.151.181:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "185.104.151.181",
+      "port": 443,
+      "ips": [
+        "185.104.151.181"
+      ],
+      "latency_ms": 120,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@77.110.121.125:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@77.110.121.125:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "77.110.121.125",
+      "port": 443,
+      "ips": [
+        "77.110.121.125"
+      ],
+      "latency_ms": 123,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@95.213.226.60:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@95.213.226.60:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "95.213.226.60",
+      "port": 443,
+      "ips": [
+        "95.213.226.60"
+      ],
+      "latency_ms": 123,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.67.34.89:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B7%F0%9F%87%B4RO%E7%BE%85%E9%A6%AC%E5%B0%BC%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.67.34.89:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B7%F0%9F%87%B4RO%E7%BE%85%E9%A6%AC%E5%B0%BC%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "45.67.34.89",
+      "port": 8443,
+      "ips": [
+        "45.67.34.89"
+      ],
+      "latency_ms": 124,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@82.97.249.34:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@82.97.249.34:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "82.97.249.34",
+      "port": 2053,
+      "ips": [
+        "82.97.249.34"
+      ],
+      "latency_ms": 129,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@85.239.39.144:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@85.239.39.144:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "85.239.39.144",
+      "port": 8443,
+      "ips": [
+        "85.239.39.144"
+      ],
+      "latency_ms": 130,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@95.163.242.189:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B7%F0%9F%87%BARU%E4%BF%84%E7%BE%85%E6%96%AF%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@95.163.242.189:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B7%F0%9F%87%BARU%E4%BF%84%E7%BE%85%E6%96%AF%E4%B8%A8yoyapai.com%5Cr",
+      "host": "95.163.242.189",
+      "port": 8443,
+      "ips": [
+        "95.163.242.189"
+      ],
+      "latency_ms": 131,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9LU5G6Kej6ZSB6Ieq5Yi25YmnLUNoYXRHUFQtVGlrVG9rLVlvdVR1YmUtY2cxYzA3LndhaW1hb2pkLmNvbTo0NDMiLCJhZGQiOiJjZzFjMDcud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiZThlMzEzNi1iODc0LTQwODUtYmQyMy1lYzM2OTkzMDA0OTAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwiaG9zdCI6ImNnMWMwNy53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMifQ==",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9LU5G6Kej6ZSB6Ieq5Yi25YmnLUNoYXRHUFQtVGlrVG9rLVlvdVR1YmUtY2cxYzA3LndhaW1hb2pkLmNvbTo0NDMiLCJhZGQiOiJjZzFjMDcud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiZThlMzEzNi1iODc0LTQwODUtYmQyMy1lYzM2OTkzMDA0OTAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwiaG9zdCI6ImNnMWMwNy53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMifQ==",
+      "host": "cg1c07.waimaojd.com",
+      "port": 443,
+      "ips": [
+        "23.170.40.235"
+      ],
+      "latency_ms": 141,
+      "protocol": "vmess",
+      "identity": "be8e3136-b874-4085-bd23-ec3699300490",
+      "tls_like": true,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9LUNoYXRHUFQtVGlrVG9rLVlvdVR1YmUtY2cxYzE0LndhaW1hb2pkLmNvbTo0NDMiLCJhZGQiOiJjZzFjMTQud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiZThlMzEzNi1iODc0LTQwODUtYmQyMy1lYzM2OTkzMDA0OTAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwiaG9zdCI6ImNnMWMxNC53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMifQ==",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9LUNoYXRHUFQtVGlrVG9rLVlvdVR1YmUtY2cxYzE0LndhaW1hb2pkLmNvbTo0NDMiLCJhZGQiOiJjZzFjMTQud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiZThlMzEzNi1iODc0LTQwODUtYmQyMy1lYzM2OTkzMDA0OTAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwiaG9zdCI6ImNnMWMxNC53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMifQ==",
+      "host": "cg1c14.waimaojd.com",
+      "port": 443,
+      "ips": [
+        "91.149.239.165"
+      ],
+      "latency_ms": 141,
+      "protocol": "vmess",
+      "identity": "be8e3136-b874-4085-bd23-ec3699300490",
+      "tls_like": true,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9LUNoYXRHUFQtVGlrVG9rLVlvdVR1YmUtY2cxYzA0LndhaW1hb2pkLmNvbTo0NDMiLCJhZGQiOiJjZzFjMDQud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiZThlMzEzNi1iODc0LTQwODUtYmQyMy1lYzM2OTkzMDA0OTAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwiaG9zdCI6ImNnMWMwNC53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMifQ==",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVk1FU1Mt576O5Zu9LUNoYXRHUFQtVGlrVG9rLVlvdVR1YmUtY2cxYzA0LndhaW1hb2pkLmNvbTo0NDMiLCJhZGQiOiJjZzFjMDQud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiZThlMzEzNi1iODc0LTQwODUtYmQyMy1lYzM2OTkzMDA0OTAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwiaG9zdCI6ImNnMWMwNC53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMifQ==",
+      "host": "cg1c04.waimaojd.com",
+      "port": 443,
+      "ips": [
+        "67.21.85.228"
+      ],
+      "latency_ms": 154,
+      "protocol": "vmess",
+      "identity": "be8e3136-b874-4085-bd23-ec3699300490",
+      "tls_like": true,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#%F0%9F%87%BA%F0%9F%87%B8%20US%E7%BE%8E%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#%F0%9F%87%BA%F0%9F%87%B8%20US%E7%BE%8E%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "switcher-nick-croquet.freesocks.work",
+      "port": 443,
+      "ips": [
+        "92.112.126.90",
+        "2a12:bec4:1822:1b9::a"
+      ],
+      "latency_ms": 154,
+      "protocol": "ss",
+      "identity": "switcher-nick-croquet.freesocks.work:443",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://BxceQaOe@116.80.61.236:443?allowInsecure=1&sni=t.me%252Fripaojiedian#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%7C%40ripaojiedian",
+      "link_insecure_hint": "trojan://BxceQaOe@116.80.61.236:443?allowInsecure=1&sni=t.me%252Fripaojiedian#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%7C%40ripaojiedian",
+      "host": "116.80.61.236",
+      "port": 443,
+      "ips": [
+        "116.80.61.236"
+      ],
+      "latency_ms": 158,
+      "protocol": "trojan",
+      "identity": "BxceQaOe",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@pupas-shirting-unsung.freesocks.work:443#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work%3A443",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@pupas-shirting-unsung.freesocks.work:443#%F0%9F%87%BA%F0%9F%87%B8%20SS-%E7%BE%8E%E5%9B%BD-NF%E8%A7%A3%E9%94%81%E8%87%AA%E5%88%B6%E5%89%A7-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work%3A443",
+      "host": "pupas-shirting-unsung.freesocks.work",
+      "port": 443,
+      "ips": [
+        "71.19.148.143",
+        "2605:2700:0:2:a800:ff:feb2:a9db"
+      ],
+      "latency_ms": 187,
+      "protocol": "ss",
+      "identity": "pupas-shirting-unsung.freesocks.work:443",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@175.197.237.36:10912?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@175.197.237.36:10912?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "175.197.237.36",
+      "port": 10912,
+      "ips": [
+        "175.197.237.36"
+      ],
+      "latency_ms": 190,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@220.118.248.123:18001?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@220.118.248.123:18001?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "220.118.248.123",
+      "port": 18001,
+      "ips": [
+        "220.118.248.123"
+      ],
+      "latency_ms": 194,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@183.102.55.197:10003?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@183.102.55.197:10003?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "183.102.55.197",
+      "port": 10003,
+      "ips": [
+        "183.102.55.197"
+      ],
+      "latency_ms": 196,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@59.12.232.18:12345?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@59.12.232.18:12345?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "59.12.232.18",
+      "port": 12345,
+      "ips": [
+        "59.12.232.18"
+      ],
+      "latency_ms": 208,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@183.107.78.213:20880?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@183.107.78.213:20880?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "183.107.78.213",
+      "port": 20880,
+      "ips": [
+        "183.107.78.213"
+      ],
+      "latency_ms": 208,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@79.141.73.189:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@79.141.73.189:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "79.141.73.189",
+      "port": 8443,
+      "ips": [
+        "79.141.73.189"
+      ],
+      "latency_ms": 209,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@59.0.95.106:32773?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@59.0.95.106:32773?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "59.0.95.106",
+      "port": 32773,
+      "ips": [
+        "59.0.95.106"
+      ],
+      "latency_ms": 215,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivfEByaXBhb2ppZWRpYW4iLCJhZGQiOiJ2MTAuaGRhY2QuY29tIiwicG9ydCI6IjMwODA3IiwidHlwZSI6Im5vbmUiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiJ2MTAuaGRhY2QuY29tIiwidGxzIjoiIn0=",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivfEByaXBhb2ppZWRpYW4iLCJhZGQiOiJ2MTAuaGRhY2QuY29tIiwicG9ydCI6IjMwODA3IiwidHlwZSI6Im5vbmUiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiJ2MTAuaGRhY2QuY29tIiwidGxzIjoiIn0=",
+      "host": "v10.hdacd.com",
+      "port": 30807,
+      "ips": [
+        "1.36.131.214"
+      ],
+      "latency_ms": 215,
+      "protocol": "vmess",
+      "identity": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://YWVzLTEyOC1nY206SlZyc0xMTjF0a044b1haTw@chengbai02.ascwt179.com:13223#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20V2CROSS.COM",
+      "link_insecure_hint": "ss://YWVzLTEyOC1nY206SlZyc0xMTjF0a044b1haTw@chengbai02.ascwt179.com:13223#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20V2CROSS.COM",
+      "host": "chengbai02.ascwt179.com",
+      "port": 13223,
+      "ips": [
+        "216.38.170.154"
+      ],
+      "latency_ms": 219,
+      "protocol": "ss",
+      "identity": "chengbai02.ascwt179.com:13223",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@118.39.136.248:20002?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@118.39.136.248:20002?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "118.39.136.248",
+      "port": 20002,
+      "ips": [
+        "118.39.136.248"
+      ],
+      "latency_ms": 224,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@66.42.61.215:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%ACSG%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@66.42.61.215:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B8%F0%9F%87%ACSG%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%B8%A8yoyapai.com%5Cr",
+      "host": "66.42.61.215",
+      "port": 443,
+      "ips": [
+        "66.42.61.215"
+      ],
+      "latency_ms": 227,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@14.50.59.154:10243?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@14.50.59.154:10243?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "14.50.59.154",
+      "port": 10243,
+      "ips": [
+        "14.50.59.154"
+      ],
+      "latency_ms": 228,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@59.16.228.103:18469?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@59.16.228.103:18469?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "59.16.228.103",
+      "port": 18469,
+      "ips": [
+        "59.16.228.103"
+      ],
+      "latency_ms": 238,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@43.249.33.117:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%B3%B0%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@43.249.33.117:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%B3%B0%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "43.249.33.117",
+      "port": 443,
+      "ips": [
+        "43.249.33.117"
+      ],
+      "latency_ms": 252,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.91.134.91:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%B3%B0%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.91.134.91:2053?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%B3%B0%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "45.91.134.91",
+      "port": 2053,
+      "ips": [
+        "45.91.134.91"
+      ],
+      "latency_ms": 252,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.150.128.181:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%B3%B0%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@45.150.128.181:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%E6%B3%B0%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "host": "45.150.128.181",
+      "port": 443,
+      "ips": [
+        "45.150.128.181"
+      ],
+      "latency_ms": 261,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://8r%3C%5B9%27l6hAO%238ZQi@123.99.111.135:19461?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "link_insecure_hint": "trojan://8r%3C%5B9%27l6hAO%238ZQi@123.99.111.135:19461?allowInsecure=1&sni=Koma-YT.PAGeS.Dev#%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "host": "123.99.111.135",
+      "port": 19461,
+      "ips": [
+        "123.99.111.135"
+      ],
+      "latency_ms": 272,
+      "protocol": "trojan",
+      "identity": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoi5Lqa5aSq5Zyw5Yy6IENDWlpVVS5UT1AiLCJhZGQiOiJwbGFuYi5tb2pjbi5jb20iLCJwb3J0IjoiMTY2MjYiLCJ0eXBlIjoibm9uZSIsImlkIjoiZjM2NTYzMGQtMTViNS00YmQ0LWFkNTUtYWE2Mjg0ZDdiZTMwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiOGE2ODdkYTk0NThjYzQ2ZTgwYWJjODVlYzhkOGFkYTcubW9iZ3NsYi50YmNhY2hlLmNvbSIsInRscyI6IiJ9",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoi5Lqa5aSq5Zyw5Yy6IENDWlpVVS5UT1AiLCJhZGQiOiJwbGFuYi5tb2pjbi5jb20iLCJwb3J0IjoiMTY2MjYiLCJ0eXBlIjoibm9uZSIsImlkIjoiZjM2NTYzMGQtMTViNS00YmQ0LWFkNTUtYWE2Mjg0ZDdiZTMwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiOGE2ODdkYTk0NThjYzQ2ZTgwYWJjODVlYzhkOGFkYTcubW9iZ3NsYi50YmNhY2hlLmNvbSIsInRscyI6IiJ9",
+      "host": "planb.mojcn.com",
+      "port": 16626,
+      "ips": [
+        "162.19.192.89"
+      ],
+      "latency_ms": 335,
+      "protocol": "vmess",
+      "identity": "f365630d-15b5-4bd4-ad55-aa6284d7be30",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.130519.xyz:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%B0%F0%9F%87%B7%20KR%E9%9F%A9%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.130519.xyz:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%B0%F0%9F%87%B7%20KR%E9%9F%A9%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "cf.130519.xyz",
+      "port": 443,
+      "ips": [
+        "172.67.138.17",
+        "104.21.94.161",
+        "2606:4700:3035::ac43:8a11",
+        "2606:4700:3035::6815:5ea1"
+      ],
+      "latency_ms": 338,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.008500.xyz:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.008500.xyz:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "cf.008500.xyz",
+      "port": 443,
+      "ips": [
+        "162.159.1.31",
+        "173.245.58.64",
+        "162.159.20.57",
+        "172.64.48.117",
+        "172.64.156.60"
+      ],
+      "latency_ms": 385,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "vmess://eyJ2IjoiMiIsInBzIjoiOOWFg+iAgeeJjOS4k+e6v+acuuWcuu+8mmNjenp1dS50b3AiLCJhZGQiOiJlZmFuLmRuc2VmYW4wNDg4MS5jb20iLCJwb3J0IjoiNzc1NCIsInR5cGUiOiJub25lIiwiaWQiOiIwMDllNTU4ZC0zY2Y0LTQ5ZDgtYjVlNC04MmM5ZTE0ZmUxYTQiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiZWZhbi5kbnNlZmFuMDQ4ODEuY29tIiwidGxzIjoiIn0=",
+      "link_insecure_hint": "vmess://eyJ2IjoiMiIsInBzIjoiOOWFg+iAgeeJjOS4k+e6v+acuuWcuu+8mmNjenp1dS50b3AiLCJhZGQiOiJlZmFuLmRuc2VmYW4wNDg4MS5jb20iLCJwb3J0IjoiNzc1NCIsInR5cGUiOiJub25lIiwiaWQiOiIwMDllNTU4ZC0zY2Y0LTQ5ZDgtYjVlNC04MmM5ZTE0ZmUxYTQiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiZWZhbi5kbnNlZmFuMDQ4ODEuY29tIiwidGxzIjoiIn0=",
+      "host": "efan.dnsefan04881.com",
+      "port": 7754,
+      "ips": [
+        "188.253.126.251"
+      ],
+      "latency_ms": 443,
+      "protocol": "vmess",
+      "identity": "009e558d-3cf4-49d8-b5e4-82c9e14fe1a4",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@saas.sin.fan:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@saas.sin.fan:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "saas.sin.fan",
+      "port": 443,
+      "ips": [
+        "162.159.36.20",
+        "162.159.36.5"
+      ],
+      "latency_ms": 509,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@mfa.gov.ua:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%B8%F0%9F%87%AC%20SG%E6%96%B0%E5%8A%A0%E5%9D%A1%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@mfa.gov.ua:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%B8%F0%9F%87%AC%20SG%E6%96%B0%E5%8A%A0%E5%9D%A1%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "mfa.gov.ua",
+      "port": 443,
+      "ips": [
+        "104.18.38.47",
+        "172.64.149.209"
+      ],
+      "latency_ms": 527,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#%F0%9F%87%BA%F0%9F%87%B8%20US%E7%BE%8E%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#%F0%9F%87%BA%F0%9F%87%B8%20US%E7%BE%8E%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "tinkered-pennies-puppies.freesocks.work",
+      "port": 443,
+      "ips": [
+        "38.135.24.131",
+        "2602:f6f6:2:65fe::1"
+      ],
+      "latency_ms": 560,
+      "protocol": "ss",
+      "identity": "tinkered-pennies-puppies.freesocks.work:443",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.877774.xyz:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.877774.xyz:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "cf.877774.xyz",
+      "port": 443,
+      "ips": [
+        "172.64.146.66",
+        "104.18.41.190",
+        "2a06:98c1:3102::6812:29be",
+        "2606:4700:4406::ac40:9242"
+      ],
+      "latency_ms": 568,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    },
+    {
+      "link": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@store.ubi.com:443?allowInsecure=0&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AF%F0%9F%87%B5%20JP%E6%97%A5%E6%9C%AC%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "link_insecure_hint": "trojan://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@store.ubi.com:443?allowInsecure=1&sni=cloudflare-proxy-1jk.pages.dev&ws=1&wspath=%2F%3Fed%3D2560#%F0%9F%87%AF%F0%9F%87%B5%20JP%E6%97%A5%E6%9C%AC%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "host": "store.ubi.com",
+      "port": 443,
+      "ips": [
+        "104.18.40.152",
+        "172.64.147.104"
+      ],
+      "latency_ms": 661,
+      "protocol": "trojan",
+      "identity": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls_like": false,
+      "skip_cert_verify": true
+    }
+  ]
+}

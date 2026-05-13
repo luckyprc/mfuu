@@ -1,0 +1,2069 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%BA%F0%9F%87%B8%20_US_%E7%BE%8E%E5%9B%BD",
+      "settings": {
+        "vnext": [
+          {
+            "address": "216.24.57.250",
+            "port": 443,
+            "users": [
+              {
+                "password": "5027e2a4-c4d2-463a-9508-83a2c7d1ad83"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B8%F0%9F%87%AC%20SG%E6%96%B0%E5%8A%A0%E5%9D%A1%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cf.090227.xyz",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%BE%8E%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.44.230",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cf.zhetengsha.eu.org",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hgtrojan.zabc.net",
+            "port": 2083,
+            "users": [
+              {
+                "id": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hgtrojan.zabc.net"
+        }
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%A8%F0%9F%87%B3%20TW%E5%8F%B0%E6%B9%BE%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "sub.danfeng.eu.org",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%AF%F0%9F%87%B5%20JP%E6%97%A5%E6%9C%AC%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cdns.doon.eu.org",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇺🇸 VMESS-美国>德国-NF解锁印度地区非自制剧-ChatGPT-TikTok-YouTube-support.zoom.us:8080",
+      "settings": {
+        "vnext": [
+          {
+            "address": "support.zoom.us",
+            "port": 8080,
+            "users": [
+              {
+                "id": "44e57485-eccc-46ef-808f-cd17ac810018",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇬🇧 英國",
+      "settings": {
+        "vnext": [
+          {
+            "address": "82.198.246.233",
+            "port": 180,
+            "users": [
+              {
+                "id": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇬🇧 GB英国(mibei77.com 米贝节点分享)",
+      "settings": {
+        "vnext": [
+          {
+            "address": "82.198.246.37",
+            "port": 180,
+            "users": [
+              {
+                "id": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "英國",
+      "settings": {
+        "vnext": [
+          {
+            "address": "82.198.246.214",
+            "port": 180,
+            "users": [
+              {
+                "id": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇺🇸 US美國節點",
+      "settings": {
+        "vnext": [
+          {
+            "address": "82.198.246.97",
+            "port": 180,
+            "users": [
+              {
+                "id": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇬🇧 GB英国(mibei77.com 米贝节点分享)",
+      "settings": {
+        "vnext": [
+          {
+            "address": "82.198.246.9",
+            "port": 180,
+            "users": [
+              {
+                "id": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇬🇧 GB英国(mibei77.com 米贝节点分享)",
+      "settings": {
+        "vnext": [
+          {
+            "address": "82.198.246.250",
+            "port": 180,
+            "users": [
+              {
+                "id": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E6%B3%95%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "138.124.81.204",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%AB%F0%9F%87%B7FR%E6%B3%95%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.61.110.241",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "144.31.122.162",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cg1c01.waimaojd.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "be8e3136-b874-4085-bd23-ec3699300490",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "cg1c01.waimaojd.com"
+        }
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.15.18.58",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E8%8D%B7%E8%98%AD%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.15.17.129",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.162.9.60",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.221.191.120",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E8%A5%BF%E7%8F%AD%E7%89%99%E7%AF%80%E9%BB%9E%F0%9F%87%AA%F0%9F%87%B8ES%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.233.97.34",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.31.200.184",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.52.0.84",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.221.190.80",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%A7%F0%9F%87%AABE%E6%AF%94%E5%88%A9%E6%99%82%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.164.62.196",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "152.53.200.164",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E6%8D%B7%E5%85%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.253.46.5",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "38.180.233.61",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%A9%F0%9F%87%B0DK%E4%B8%B9%E9%BA%A5%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "77.37.96.132",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.169.192.234",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "38.180.70.111",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E8%8D%B7%E8%98%AD%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "152.53.200.89",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%91%9E%E5%A3%AB%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.192.102.55",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "38.180.96.40",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.145.171.206",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E4%B8%B9%E9%BA%A5%E7%AF%80%E9%BB%9E%F0%9F%87%A9%F0%9F%87%B0DK%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "77.37.96.247",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%A8%F0%9F%87%ADCH%E8%87%BA%E7%81%A3%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.70.71.157",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇦🇺 VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443",
+      "settings": {
+        "vnext": [
+          {
+            "address": "sy4.620720.xyz",
+            "port": 443,
+            "users": [
+              {
+                "id": "516d8a7a-3f0b-41d3-bad0-246116381516",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sy4.620720.xyz"
+        }
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL%E8%8D%B7%E8%98%AD%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "2.59.183.210",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E6%84%8F%E5%A4%A7%E5%88%A9%E7%AF%80%E9%BB%9E%F0%9F%87%AE%F0%9F%87%B9IT%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "151.241.215.148",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "64.112.127.151",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E5%A5%A7%E5%9C%B0%E5%88%A9%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.102.156.144",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%91%9E%E5%A3%AB%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "140.238.208.240",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E5%A5%A7%E5%9C%B0%E5%88%A9%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "38.180.143.51",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E8%8D%B7%E8%98%AD%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "77.110.103.243",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%91%9E%E5%A3%AB%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "38.180.84.86",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.153.187.209",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%91%9E%E5%85%B8%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "16.16.45.85",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E6%84%8F%E5%A4%A7%E5%88%A9%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "38.180.194.222",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%AA%F0%9F%87%AAEE%E6%84%9B%E6%B2%99%E5%B0%BC%E4%BA%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.189.254.235",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.125.240.63",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.125.240.147",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇺🇸 美国 CloudFlare节点",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cf.scpnb.top",
+            "port": 443,
+            "users": [
+              {
+                "id": "b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "cf.scpnb.top"
+        }
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B1%F0%9F%87%BBLV%E6%8B%89%E8%84%AB%E7%B6%AD%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.239.23.10",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "83.147.254.243",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E6%8B%89%E8%84%AB%E7%B6%AD%E4%BA%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.19.84.236",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇯🇵 VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443",
+      "settings": {
+        "vnext": [
+          {
+            "address": "t1.620720.xyz",
+            "port": 8443,
+            "users": [
+              {
+                "id": "516d8a7a-3f0b-41d3-bad0-246116381516",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "t1.620720.xyz"
+        }
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E5%8C%88%E7%89%99%E5%88%A9%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "180.149.37.38",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%AB%8B%E9%99%B6%E5%AE%9B%E7%AF%80%E9%BB%9E%F0%9F%87%B1%F0%9F%87%B9LT%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.29.234.91",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B7%F0%9F%87%B4RO%E7%BE%85%E9%A6%AC%E5%B0%BC%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "38.180.205.71",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B7%F0%9F%87%B4RO%E7%BE%85%E9%A6%AC%E5%B0%BC%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "38.180.35.88",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B1%F0%9F%87%B9LT%E7%AB%8B%E9%99%B6%E5%AE%9B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.80.128.115",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "83.147.254.168",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.104.151.181",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B8%F0%9F%87%AASE%E7%91%9E%E5%85%B8%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "77.110.121.125",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.213.226.60",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B7%F0%9F%87%B4RO%E7%BE%85%E9%A6%AC%E5%B0%BC%E4%BA%9E%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.34.89",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "82.97.249.34",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "85.239.39.144",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B7%F0%9F%87%BARU%E4%BF%84%E7%BE%85%E6%96%AF%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.163.242.189",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cg1c07.waimaojd.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "be8e3136-b874-4085-bd23-ec3699300490",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "cg1c07.waimaojd.com"
+        }
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cg1c14.waimaojd.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "be8e3136-b874-4085-bd23-ec3699300490",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "cg1c14.waimaojd.com"
+        }
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cg1c04.waimaojd.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "be8e3136-b874-4085-bd23-ec3699300490",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "cg1c04.waimaojd.com"
+        }
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%7C%40ripaojiedian",
+      "settings": {
+        "vnext": [
+          {
+            "address": "116.80.61.236",
+            "port": 443,
+            "users": [
+              {
+                "password": "BxceQaOe"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "175.197.237.36",
+            "port": 10912,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "220.118.248.123",
+            "port": 18001,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "183.102.55.197",
+            "port": 10003,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "59.12.232.18",
+            "port": 12345,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "183.107.78.213",
+            "port": 20880,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E4%BF%84%E7%BE%85%E6%96%AF%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "79.141.73.189",
+            "port": 8443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "59.0.95.106",
+            "port": 32773,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "🇭🇰 香港|@ripaojiedian",
+      "settings": {
+        "vnext": [
+          {
+            "address": "v10.hdacd.com",
+            "port": 30807,
+            "users": [
+              {
+                "id": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+                "alterId": 2
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "118.39.136.248",
+            "port": 20002,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B8%F0%9F%87%ACSG%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.42.61.215",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "14.50.59.154",
+            "port": 10243,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "59.16.228.103",
+            "port": 18469,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E6%B3%B0%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "43.249.33.117",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E6%B3%B0%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.91.134.91",
+            "port": 2053,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%E6%B3%B0%E5%9C%8B%E7%AF%80%E9%BB%9E%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.150.128.181",
+            "port": 443,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7KR%E9%9F%93%E5%9C%8B%E4%B8%A8yoyapai.com%5Cr",
+      "settings": {
+        "vnext": [
+          {
+            "address": "123.99.111.135",
+            "port": 19461,
+            "users": [
+              {
+                "password": "8r%3C%5B9%27l6hAO%238ZQi"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "亚太地区 CCZZUU.TOP",
+      "settings": {
+        "vnext": [
+          {
+            "address": "planb.mojcn.com",
+            "port": 16626,
+            "users": [
+              {
+                "id": "f365630d-15b5-4bd4-ad55-aa6284d7be30",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B0%F0%9F%87%B7%20KR%E9%9F%A9%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cf.130519.xyz",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cf.008500.xyz",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "vmess",
+      "tag": "8元老牌专线机场：cczzuu.top",
+      "settings": {
+        "vnext": [
+          {
+            "address": "efan.dnsefan04881.com",
+            "port": 7754,
+            "users": [
+              {
+                "id": "009e558d-3cf4-49d8-b5e4-82c9e14fe1a4",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "saas.sin.fan",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%B8%F0%9F%87%AC%20SG%E6%96%B0%E5%8A%A0%E5%9D%A1%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mfa.gov.ua",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%AD%F0%9F%87%B0%20HK%E9%A6%99%E6%B8%AF%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cf.877774.xyz",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "protocol": "trojan",
+      "tag": "%F0%9F%87%AF%F0%9F%87%B5%20JP%E6%97%A5%E6%9C%AC%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29",
+      "settings": {
+        "vnext": [
+          {
+            "address": "store.ubi.com",
+            "port": 443,
+            "users": [
+              {
+                "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    }
+  ]
+}
