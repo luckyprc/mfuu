@@ -28,7 +28,15 @@ jobs:
 
       - name: "Install mihomo (Clash.Meta)"
         run: |
-          curl -sL "https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64-compatible-v3-vless.gz" | gunzip -c > /tmp/mihomo
+          # 获取最新 release 版本号
+          VERSION=$(curl -sL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+          echo "Latest mihomo version: $VERSION"
+          
+          # 下载对应版本（带 -L 跟随重定向）
+          curl -sL -o /tmp/mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${VERSION}/mihomo-linux-amd64-compatible-${VERSION}.gz"
+          
+          # 解压
+          gunzip -c /tmp/mihomo.gz > /tmp/mihomo
           chmod +x /tmp/mihomo
           /tmp/mihomo -v
 
