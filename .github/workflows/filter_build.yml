@@ -1,0 +1,50 @@
+name: "Build raw sub (real-connect, scv=true)"
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests pyyaml
+
+      - name: "Install mihomo"
+        run: |
+          VERSION=$(curl -sL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+          curl -sL -o /tmp/mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${VERSION}/mihomo-linux-amd64-compatible-${VERSION}.gz"
+          gunzip -c /tmp/mihomo.gz > /tmp/mihomo
+          chmod +x /tmp/mihomo
+          /tmp/mihomo -v
+
+      - env:
+          UPSTREAM_SUB: "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray"
+          MAX_LATENCY_MS: "800"
+          PROBE_URL: "http://connectivitycheck.platform.hicloud.com/generate_204"
+          PROBE_TIMEOUT_MS: "5000"
+          CONCURRENCY: "50"
+        run: |
+          mkdir -p output
+          python scripts/filter_real.py
+
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add output/*
+          if ! git diff --cached --quiet; then
+            git commit -m "Update raw subs (real-connect, scv=true)"
+            git push origin main
+          fi
