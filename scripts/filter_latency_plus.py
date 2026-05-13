@@ -1,3 +1,6 @@
+cd /path/to/mfuu
+
+cat > scripts/filter_latency_plus.py << 'PYEOF'
 #!/usr/bin/env python3
 """订阅内容获取、TCP延迟测试、去重、输出"""
 
@@ -27,18 +30,17 @@ SCHEMES = ("vmess://", "vless://", "trojan://", "ss://")
 
 
 def try_b64_decode(s: str) -> str | None:
-    """尝试把整段文本当 base64 解码；成功且包含代理链接则返回解码后内容"""
     t = s.strip()
     if not t:
         return None
-    # 如果已经包含明文代理链接，说明不是 base64
     if any(x in t for x in SCHEMES):
         return None
-    # 只保留 base64 合法字符（含真实换行符 \r \n）
-    if not re.fullmatch(r"[A-Za-z0-9+/=\r\n]+", t):
+    # 剔除所有空白后再判断，避免换行符干扰
+    t_clean = re.sub(r'\s+', '', t)
+    if not re.fullmatch(r"[A-Za-z0-9+/=]+", t_clean):
         return None
     try:
-        raw = base64.b64decode(t, validate=False).decode("utf-8", "ignore")
+        raw = base64.b64decode(t_clean, validate=False).decode("utf-8", "ignore")
         if any(line.startswith(SCHEMES) for line in raw.splitlines()):
             return raw
     except Exception:
@@ -49,7 +51,6 @@ def try_b64_decode(s: str) -> str | None:
 def parse_vmess(link: str):
     try:
         payload = link[len("vmess://"):]
-        # 去掉可能的多余填充
         pad = 4 - len(payload) % 4
         if pad != 4:
             payload += "=" * pad
@@ -162,8 +163,17 @@ async def main():
         raise SystemExit("UPSTREAM_SUB env not set")
 
     print(f"Fetching upstream: {UPSTREAM_SUB}")
-    text = requests.get(UPSTREAM_SUB, timeout=30).text
+    try:
+        resp = requests.get(UPSTREAM_SUB, timeout=30)
+        resp.raise_for_status()
+        text = resp.text
+    except Exception as e:
+        print(f"ERROR fetching upstream: {e}")
+        text = ""
+
     print(f"Upstream length: {len(text)}")
+    if len(text) > 200:
+        print(f"Upstream preview: {text[:200]}")
 
     decoded = try_b64_decode(text)
     if decoded is not None:
@@ -182,7 +192,6 @@ async def main():
 
     if not links:
         print("WARNING: No proxy links found. Check upstream format.")
-        # 仍然创建空文件，避免后续步骤报错
         os.makedirs("output", exist_ok=True)
         for path in (OUT_RAW, OUT_B64, OUT_RAW_INSECURE, OUT_B64_INSECURE, OUT_JSON):
             with open(path, "w", encoding="utf-8") as f:
@@ -231,7 +240,6 @@ async def main():
         if r:
             results.append(r)
 
-    # 同一 host:port 只保留最低延迟
     results.sort(key=lambda x: x["latency_ms"])
     seen_hostport = set()
     kept = []
@@ -278,3 +286,8 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+PYEOF
+
+git add scripts/filter_latency_plus.py
+git commit -m "fix: strip whitespace before base64 regex match"
+git push
