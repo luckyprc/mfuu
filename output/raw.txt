@@ -1,3 +1,5 @@
-trojan://HC04361579@accepted-starling.rooster465.autos:443?allowInsecure=1&sni=accepted-starling.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
-trojan://HC04361579@driven-doberman.rooster465.autos:443?allowInsecure=1&sni=driven-doberman.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
-vmess://ewogICJ2IjogMiwKICAicHMiOiAi8J+HuPCfh6xfU0df5paw5Yqg5Z2hIiwKICAiYWRkIjogIjQzLjIyOC4xMjYuMTg3IiwKICAicG9ydCI6IDQ3NjMwLAogICJpZCI6ICI5ZTVjNmViZi0zNWY5LTQ5YTMtOWYxMi1jYmEyYjdjZGJjY2IiLAogICJhaWQiOiAwLAogICJzY3kiOiAiYXV0byIsCiAgIm5ldCI6ICJub25lIiwKICAidHlwZSI6IG51bGwsCiAgImhvc3QiOiAiNDMuMjI4LjEyNi4xODciLAogICJwYXRoIjogIi8iLAogICJ0bHMiOiBmYWxzZSwKICAic25pIjogIiIKfQ==
+trojan://HC04361579@pet-albacore.rooster465.autos:443?allowInsecure=1&sni=pet-albacore.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
+trojan://HC04361579@legible-ocelot.rooster465.autos:443?allowInsecure=1&sni=legible-ocelot.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
+trojan://HC04361579@settling-shad.rooster465.autos:443?allowInsecure=1&sni=settling-shad.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
+trojan://PQ05174892@fleet-pony.rooster465.autos:443?allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC_SG_%E6%96%B0%E5%8A%A0%E5%9D%A1
+trojan://EQ30679154@wealthy-gobbler.rooster465.autos:443?allowInsecure=1&sni=wealthy-gobbler.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
